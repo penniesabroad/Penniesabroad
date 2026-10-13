@@ -167,5 +167,8 @@
   .article-body a{color:var(--teal-bright);text-decoration:underline;}
   .chip-live{background:color-mix(in srgb, var(--teal-bright) 18%, transparent);color:var(--teal);}
   .article-body img.inline-photo{width:100%;border-radius:10px;border:1px solid var(--line);margin:18px 0 26px;display:block;aspect-ratio:4/3;object-fit:cover;}
+  .article-body .photo-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0 26px;}
+  .article-body .photo-pair img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:10px;border:1px solid var(--line);display:block;margin:0;}
+  .article-body .photo-pair.landscape img{aspect-ratio:4/3;}
   .placeholder-note{background:var(--paper-alt);border:1px dashed var(--line);border-radius:8px;padding:20px;font-size:0.92rem;color:var(--ink-soft);line-height:1.6;}
   .placeholder-note strong{color:var(--ink);}
