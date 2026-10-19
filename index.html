@@ -12,7 +12,7 @@
 <header class="site">
   <div class="nav-top">
     <a class="logo display" href="#home" data-page="home">Pennies Abroad</a>
-    <a class="btn btn-primary btn-small" href="#resources" data-page="resources">Join the list</a>
+    <a class="btn btn-primary btn-small" href="#newsletter">Join the list</a>
   </div>
   <nav class="navlinks" aria-label="Site">
     <a href="#home" data-page="home">Home</a>
@@ -369,7 +369,7 @@
       <ul class="facts">
         <li><span class="k">Studied in</span><span>Rome, Italy and County Waterford, Ireland</span></li>
         <li><span class="k">Home base</span><span>New York</span></li>
-        <li><span class="k">Say hello</span><span><a href="#resources" data-page="resources">Join my free newsletter →</a></span></li>
+        <li><span class="k">Say hello</span><span><a href="#newsletter">Join my free newsletter →</a></span></li>
       </ul>
     </div>
   </div>
@@ -486,7 +486,7 @@
     </div>
     <div class="fcol">
       <span>Say hello</span>
-      <a href="#resources" data-page="resources">Join the newsletter</a>
+      <a href="#newsletter">Join the newsletter</a>
       <span>@penniesabroad — add your handles here</span>
     </div>
   </div>
@@ -508,7 +508,7 @@
   (function(){
     var pages = ['home','blog','traveltips','about','resources'];
 
-    function showPage(id){
+    function showPage(id, toNews){
       pages.forEach(function(p){
         var el = document.getElementById('page-' + p);
         if(el) el.hidden = (p !== id);
@@ -528,7 +528,8 @@
           }
         }
       });
-      window.scrollTo(0,0);
+      var news = toNews ? document.querySelector('#page-' + id + ' .news') : null;
+      if(news){ news.scrollIntoView(); } else { window.scrollTo(0,0); }
     }
 
     function pageFromHash(){
@@ -536,8 +537,17 @@
       return pages.indexOf(h) !== -1 ? h : 'home';
     }
 
-    window.addEventListener('hashchange', function(){ showPage(pageFromHash()); });
-    showPage(pageFromHash());
+    function isNewsHash(){ return location.hash === '#newsletter'; }
+
+    window.addEventListener('hashchange', function(){ showPage(pageFromHash(), isNewsHash()); });
+    showPage(pageFromHash(), isNewsHash());
+
+    // "Join the list" links: go to the Home signup box, even if already on #newsletter
+    document.querySelectorAll('a[href="#newsletter"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        if(isNewsHash()){ e.preventDefault(); showPage('home', true); }
+      });
+    });
 
     // ---- free downloadable resources ----
     var FILES = {
