@@ -99,12 +99,51 @@
     <div class="news">
       <span class="eyebrow mono" style="color:var(--orange)">Stay in the loop</span>
       <h2>Be the first to know when guides drop</h2>
-      <form class="subscribe">
-        <input type="email" required placeholder="you@school.edu" aria-label="Email address">
-        <button class="btn btn-primary" type="submit">Join the list</button>
-      </form>
-      <small class="form-note">No spam — just a note when a new free or paid guide launches.</small>
-      <span class="thankyou">Got it — you're on the list for the next drop.</span>
+      <div class="ml-slot">
+      <div id="ml-embed">
+        <div id="mlb2-47325599" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-47325599">
+          <div class="ml-form-align-center ">
+            <div class="ml-form-embedWrapper embedForm">
+              <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+                <div class="ml-form-embedContent">
+                  <h4>Pennies Abroad Newsletter</h4>
+                  <p>Get budget travel tips and a peek at my adventures, straight to your inbox.</p>
+                </div>
+                <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/2724841/forms/201761533561144657/subscribe" data-code="" method="post" target="_blank">
+                  <div class="ml-form-formContent">
+                    <div class="ml-form-fieldRow ml-last-item">
+                      <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                        <input aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ml-form-embedPermissions">
+                    <div class="ml-form-embedPermissionsContent default privacy-policy">
+                      <p>By clicking "Subscribe", you consent to receive&nbsp;marketing communications from Pennies Abroad.</p>
+                    </div>
+                  </div>
+                  <input type="hidden" name="ml-submit" value="1">
+                  <div class="ml-form-embedSubmit">
+                    <button type="submit" class="primary">Subscribe</button>
+                    <button disabled="disabled" style="display: none;" type="button" class="loading">
+                      <div class="ml-form-embedSubmitLoad"></div>
+                      <span class="sr-only">Loading...</span>
+                    </button>
+                  </div>
+                  <input type="hidden" name="anticsrf" value="true">
+                </form>
+              </div>
+              <div class="ml-form-successBody row-success" style="display: none">
+                <div class="ml-form-successContent">
+                  <h4>Thank you!</h4>
+                  <p>You have successfully joined the Pennies Abroad newsletter.&nbsp;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
   </section>
 
@@ -197,12 +236,7 @@
     <div class="news">
       <span class="eyebrow mono" style="color:var(--orange)">Stay in the loop</span>
       <h2>Be the first to know when guides drop</h2>
-      <form class="subscribe">
-        <input type="email" required placeholder="you@school.edu" aria-label="Email address">
-        <button class="btn btn-primary" type="submit">Join the list</button>
-      </form>
-      <small class="form-note">No spam — just a note when a new free or paid guide launches.</small>
-      <span class="thankyou">Got it — you're on the list for the next drop.</span>
+      <div class="ml-slot"></div>
     </div>
   </section>
 
@@ -308,12 +342,7 @@
     <div class="news">
       <span class="eyebrow mono" style="color:var(--orange)">Stay in the loop</span>
       <h2>Be the first to know when guides drop</h2>
-      <form class="subscribe">
-        <input type="email" required placeholder="you@school.edu" aria-label="Email address">
-        <button class="btn btn-primary" type="submit">Join the list</button>
-      </form>
-      <small class="form-note">No spam — just a note when a new free or paid guide launches.</small>
-      <span class="thankyou">Got it — you're on the list for the next drop.</span>
+      <div class="ml-slot"></div>
     </div>
   </section>
 
@@ -351,12 +380,7 @@
     <div class="news">
       <span class="eyebrow mono" style="color:var(--orange)">Stay in the loop</span>
       <h2>Be the first to know when guides drop</h2>
-      <form class="subscribe">
-        <input type="email" required placeholder="you@school.edu" aria-label="Email address">
-        <button class="btn btn-primary" type="submit">Join the list</button>
-      </form>
-      <small class="form-note">No spam — just a note when a new free or paid guide launches.</small>
-      <span class="thankyou">Got it — you're on the list for the next drop.</span>
+      <div class="ml-slot"></div>
     </div>
   </section>
 
@@ -441,12 +465,7 @@
     <div class="news">
       <span class="eyebrow mono" style="color:var(--orange)">Stay in the loop</span>
       <h2>Be the first to know when guides drop</h2>
-      <form class="subscribe">
-        <input type="email" required placeholder="you@school.edu" aria-label="Email address">
-        <button class="btn btn-primary" type="submit">Join the list</button>
-      </form>
-      <small class="form-note">No spam — just a note when a new free or paid guide launches.</small>
-      <span class="thankyou">Got it — you're on the list for the next drop.</span>
+      <div class="ml-slot"></div>
     </div>
   </section>
 
@@ -474,6 +493,18 @@
 </footer>
 
 <script>
+  function ml_webform_success_47325599() {
+    var $ = ml_jQuery || jQuery;
+    $('.ml-subscribe-form-47325599 .row-success').show();
+    $('.ml-subscribe-form-47325599 .row-form').hide();
+  }
+</script>
+<script src="https://groot.mailerlite.com/js/w/webforms.min.js?v83147fa8ce2d95cb73ece7f28b469519" type="text/javascript"></script>
+<script>
+  fetch("https://assets.mailerlite.com/jsonp/2724841/forms/201761533561144657/takel").catch(function(){});
+</script>
+
+<script>
   (function(){
     var pages = ['home','blog','traveltips','about','resources'];
 
@@ -482,6 +513,9 @@
         var el = document.getElementById('page-' + p);
         if(el) el.hidden = (p !== id);
       });
+      var embed = document.getElementById('ml-embed');
+      var slot = document.querySelector('#page-' + id + ' .ml-slot');
+      if(embed && slot && embed.parentNode !== slot){ slot.appendChild(embed); }
       document.querySelectorAll('[data-page]').forEach(function(a){
         var isActive = a.getAttribute('data-page') === id && a.classList.contains('navlinks-item-marker') === false && a.closest('.navlinks');
         if(a.closest('.navlinks')){
@@ -651,17 +685,6 @@
       });
     });
 
-    document.querySelectorAll('form.subscribe').forEach(function(form){
-      form.addEventListener('submit', function(e){
-        e.preventDefault();
-        var box = form.closest('.news');
-        var note = box ? box.querySelector('.form-note') : null;
-        var thanks = box ? box.querySelector('.thankyou') : null;
-        if(note) note.style.display = 'none';
-        if(thanks) thanks.style.display = 'inline';
-        form.querySelector('button').setAttribute('disabled', 'true');
-      });
-    });
   })();
 </script>
 

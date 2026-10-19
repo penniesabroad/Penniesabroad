@@ -147,6 +147,32 @@
   .news small{color:var(--ink-soft);}
   .thankyou{font-family:"Space Mono",monospace;font-size:0.85rem;color:var(--teal);display:none;}
 
+
+  /* ---------- MailerLite signup form ---------- */
+  .ml-slot{width:100%;max-width:460px;}
+  .ml-form-embedContainer{width:100%;}
+  .ml-form-embedContainer .ml-form-embedWrapper{background:transparent;border:0;padding:0;margin:0;}
+  .ml-form-embedContainer .ml-form-embedBody,.ml-form-embedContainer .ml-form-successBody{padding:0;}
+  .ml-form-embedContainer .ml-form-embedBody .ml-form-embedContent h4{display:none;}
+  .ml-form-embedContainer .ml-form-embedContent p{font-family:"Nunito",system-ui,sans-serif;font-size:1rem;color:var(--ink-soft);margin:0 0 14px;line-height:1.55;}
+  .ml-form-embedContainer .ml-form-formContent{margin:0 0 10px;}
+  .ml-form-embedContainer .ml-form-fieldRow{margin:0;}
+  .ml-form-embedContainer .ml-form-fieldRow input{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid var(--line);border-radius:4px;background:var(--card);color:var(--ink);font-family:"Nunito",system-ui,sans-serif;font-size:0.95rem;}
+  .ml-form-embedContainer .ml-form-fieldRow input:focus-visible{outline:2px solid var(--teal-bright);outline-offset:1px;}
+  .ml-form-embedContainer .ml-error input{border-color:#B3261E;}
+  .ml-form-embedContainer .ml-form-embedPermissionsContent p{font-family:"Nunito",system-ui,sans-serif;font-size:0.8rem;color:var(--ink-soft);margin:0 0 12px;line-height:1.5;}
+  .ml-form-embedContainer .ml-form-embedSubmit{margin:0;}
+  .ml-form-embedContainer .ml-form-embedSubmit button{display:inline-flex;align-items:center;gap:8px;background:var(--gold-bg);color:#152B40;border:1px solid transparent;border-radius:3px;padding:10px 18px;font-family:"Space Mono",monospace;font-size:0.8rem;letter-spacing:.02em;cursor:pointer;}
+  .ml-form-embedContainer .ml-form-embedSubmit button:hover{filter:brightness(0.95);}
+  .ml-form-embedContainer .ml-form-embedSubmit button:focus-visible{outline:2px solid var(--teal-bright);outline-offset:2px;}
+  .ml-form-embedContainer .ml-form-embedSubmit button.loading{display:none;}
+  .ml-form-embedSubmitLoad{display:inline-block;width:20px;height:20px;}
+  .ml-form-embedSubmitLoad:after{content:" ";display:block;width:11px;height:11px;margin:1px;border-radius:50%;border:3px solid #152B40;border-color:#152B40 #152B40 #152B40 transparent;animation:ml-spin 1.2s linear infinite;}
+  @keyframes ml-spin{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}
+  .ml-form-embedContainer .ml-form-successContent h4{font-family:"Baloo 2","Nunito",sans-serif;font-size:1.3rem;color:var(--teal);margin:0 0 6px;}
+  .ml-form-embedContainer .ml-form-successContent p{font-family:"Nunito",system-ui,sans-serif;font-size:1rem;color:var(--ink-soft);margin:0;}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;}
+
   /* ---------- footer ---------- */
   footer{border-top:1px solid var(--line);padding-block:34px calc(28px + env(safe-area-inset-bottom,0px));display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px;font-family:"Space Mono",monospace;font-size:0.78rem;color:var(--ink-soft);}
   footer .fcol{display:flex;flex-direction:column;gap:8px;}
