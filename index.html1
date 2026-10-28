@@ -1,0 +1,1046 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pennies Abroad</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<header class="site">
+  <div class="nav-top">
+    <a class="logo display" href="#home" data-page="home">Pennies Abroad</a>
+    <a class="btn btn-primary btn-small" href="#newsletter">Join the list</a>
+  </div>
+  <nav class="navlinks" aria-label="Site">
+    <a href="#home" data-page="home">Home</a>
+    <a href="#map" data-page="map">Cost map</a>
+    <a href="#blog" data-page="blog">Blog</a>
+    <a href="#traveltips" data-page="traveltips">Travel tips</a>
+    <a href="#resources" data-page="resources">Budget resources</a>
+    <a href="#about" data-page="about">About me</a>
+  </nav>
+</header>
+
+<!-- ================= HOME ================= -->
+<div class="wrap page" id="page-home">
+
+  <section class="hero">
+    <div>
+      <span class="eyebrow">Budget-first study abroad</span>
+      <h1>Studying abroad, one <em>penny</em> at a time.</h1>
+      <p class="lede">Real budgeting tips, city-by-city cost breakdowns, and downloadable guides for students who want the experience without the debt.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#map" data-page="map">See weekend costs</a>
+        <a class="btn btn-outline" href="#resources" data-page="resources">Budget resources</a>
+        <a class="btn btn-outline" href="#blog" data-page="blog">Read the blog</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="img/field-walk.jpg" alt="Juliana walking along a grass path through a wildflower field toward a stone monument" class="hero-photo">
+    </div>
+  </section>
+
+  <div class="tear"></div>
+
+  <section style="padding-block:16px 48px;">
+    <div class="section-head">
+      <span class="eyebrow mono">From the blog</span>
+      <h2>Latest posts</h2>
+    </div>
+    <div class="postlist">
+      <div class="post">
+        <a class="post-row" href="posts/howth.html">
+          <div class="post-thumb"><img src="img/howth-harbour-view.jpg" alt="View over the rooftops of Howth to the harbour and the island of Ireland’s Eye on a clear evening"></div>
+          <div class="post-main">
+            <h3>Howth: free cliffs and a &euro;1 bus ride from Dublin</h3>
+            <p>A day trip from Dublin for under &euro;20: a &euro;1 bus each way, free cliff walks, and why takeaway fish and chips saves you &euro;10.</p>
+          </div>
+        </a>
+        <div class="post-meta"><span class="chip chip-live">New</span></div>
+      </div>
+      <div class="post">
+        <a class="post-row" href="posts/berlin-budget.html">
+          <div class="post-thumb"><img src="img/berlin-cathedral.jpg" alt="Berlin Cathedral under a bright blue sky"></div>
+          <div class="post-main">
+            <h3>2 Days in Berlin on a Budget: 3 Places Worth the Stop</h3>
+            <p>Three places that made a short weekend in Berlin easy on a student budget: a &euro;70 hostel pod, &euro;3 coffee, and a &euro;6.90 lunch menu.</p>
+          </div>
+        </a>
+        <div class="post-meta"><span class="chip chip-live">New</span></div>
+      </div>
+      <div class="post">
+        <a class="post-row" href="posts/glasgow-budget.html">
+          <div class="post-thumb"><img src="img/glasgow-cathedral.jpg" alt="Glasgow Cathedral and the Necropolis seen from above"></div>
+          <div class="post-main">
+            <h3>3 Days in Glasgow on a Budget: 5 Things That Were Actually Worth It</h3>
+            <p>Five things that were actually worth it on a budget weekend trip from Dublin to Glasgow: free sights, a student drinks pass, and the best &pound;15 meal of the trip.</p>
+          </div>
+        </a>
+        <div class="post-meta"><span class="chip chip-live">New</span></div>
+      </div>
+      <div class="post">
+        <a class="post-row" href="posts/budget-30.html">
+          <div class="post-thumb"><img src="img/vatican.jpg" alt="Student overlooking Rome and St. Peter's Basilica"></div>
+          <div class="post-main">
+            <h3>How I cut my semester abroad budget by 30%</h3>
+            <p>The three changes that made the biggest difference, and the one I wish I'd made in month one, not month four.</p>
+          </div>
+        </a>
+        <div class="post-meta"><span class="chip chip-draft">Draft</span></div>
+      </div>
+    </div>
+    <p class="capfoot" style="margin-top:8px;"><a href="#blog" data-page="blog">Read all posts →</a></p>
+  </section>
+
+  <div class="tear"></div>
+
+  <section>
+    <div class="news">
+      <span class="eyebrow mono" style="color:var(--orange)">Stay in the loop</span>
+      <h2>Be the first to know when guides drop</h2>
+      <div class="ml-slot">
+      <div id="ml-embed">
+        <div id="mlb2-47325599" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-47325599">
+          <div class="ml-form-align-center ">
+            <div class="ml-form-embedWrapper embedForm">
+              <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+                <div class="ml-form-embedContent">
+                  <h4>Pennies Abroad Newsletter</h4>
+                  <p>Get budget travel tips and a peek at my adventures, straight to your inbox.</p>
+                </div>
+                <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/2724841/forms/201761533561144657/subscribe" data-code="" method="post" target="_blank">
+                  <div class="ml-form-formContent">
+                    <div class="ml-form-fieldRow ml-last-item">
+                      <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                        <input aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ml-form-embedPermissions">
+                    <div class="ml-form-embedPermissionsContent default privacy-policy">
+                      <p>By clicking "Subscribe", you consent to receive&nbsp;marketing communications from Pennies Abroad.</p>
+                    </div>
+                  </div>
+                  <input type="hidden" name="ml-submit" value="1">
+                  <div class="ml-form-embedSubmit">
+                    <button type="submit" class="primary">Subscribe</button>
+                    <button disabled="disabled" style="display: none;" type="button" class="loading">
+                      <div class="ml-form-embedSubmitLoad"></div>
+                      <span class="sr-only">Loading...</span>
+                    </button>
+                  </div>
+                  <input type="hidden" name="anticsrf" value="true">
+                </form>
+              </div>
+              <div class="ml-form-successBody row-success" style="display: none">
+                <div class="ml-form-successContent">
+                  <h4>Thank you!</h4>
+                  <p>You have successfully joined the Pennies Abroad newsletter.&nbsp;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ================= BLOG ================= -->
+<div class="wrap page" id="page-blog" hidden>
+  <div class="page-head">
+    <span class="eyebrow mono">The blog</span>
+    <h1>Notes from the field</h1>
+    <p>The first posts are being written now. Here's a preview of what's coming. New posts will appear here as they go live.</p>
+  </div>
+
+  <div class="postlist" style="padding-block:20px 40px;">
+    <div class="post">
+      <a class="post-row" href="posts/howth.html">
+        <div class="post-thumb"><img src="img/howth-harbour-view.jpg" alt="View over the rooftops of Howth to the harbour and the island of Ireland’s Eye on a clear evening"></div>
+        <div class="post-main">
+          <h3>Howth: free cliffs and a &euro;1 bus ride from Dublin</h3>
+          <p>A day trip from Dublin for under &euro;20: a &euro;1 bus each way, free cliff walks, and why takeaway fish and chips saves you &euro;10.</p>
+        </div>
+      </a>
+      <div class="post-meta"><span class="chip chip-live">New</span></div>
+    </div>
+    <div class="post">
+      <a class="post-row" href="posts/berlin-budget.html">
+        <div class="post-thumb"><img src="img/berlin-cathedral.jpg" alt="Berlin Cathedral under a bright blue sky"></div>
+        <div class="post-main">
+          <h3>2 Days in Berlin on a Budget: 3 Places Worth the Stop</h3>
+          <p>Three places that made a short weekend in Berlin easy on a student budget: a &euro;70 hostel pod, &euro;3 coffee, and a &euro;6.90 lunch menu.</p>
+        </div>
+      </a>
+      <div class="post-meta"><span class="chip chip-live">New</span></div>
+    </div>
+    <div class="post">
+      <a class="post-row" href="posts/glasgow-budget.html">
+        <div class="post-thumb"><img src="img/glasgow-cathedral.jpg" alt="Glasgow Cathedral and the Necropolis seen from above"></div>
+        <div class="post-main">
+          <h3>3 Days in Glasgow on a Budget: 5 Things That Were Actually Worth It</h3>
+          <p>Five things that were actually worth it on a budget weekend trip from Dublin to Glasgow: free sights, a student drinks pass, and the best &pound;15 meal of the trip.</p>
+        </div>
+      </a>
+      <div class="post-meta"><span class="chip chip-live">New</span></div>
+    </div>
+    <div class="post">
+      <a class="post-row" href="posts/budget-30.html">
+        <div class="post-thumb"><img src="img/vatican.jpg" alt="Student overlooking Rome and St. Peter's Basilica"></div>
+        <div class="post-main">
+          <h3>How I cut my semester abroad budget by 30%</h3>
+          <p>The three changes that made the biggest difference, and the one I wish I'd made in month one, not month four.</p>
+        </div>
+      </a>
+      <div class="post-meta"><span class="chip chip-draft">Draft</span></div>
+    </div>
+    <div class="post">
+      <a class="post-row" href="posts/barcelona-cost.html">
+        <div class="post-thumb"><img src="img/airplane.jpg" alt="Aircraft wing above sunset clouds"></div>
+        <div class="post-main">
+          <h3>The real cost of a semester in Barcelona</h3>
+          <p>Rent, transit passes, groceries, and the fees nobody puts in the brochure: a full line-by-line breakdown.</p>
+        </div>
+      </a>
+      <div class="post-meta"><span class="chip chip-draft">Draft</span></div>
+    </div>
+    <div class="post">
+      <a class="post-row" href="posts/free-things-to-do.html">
+        <div class="post-thumb"><img src="img/vatican.jpg" alt="Student overlooking Rome and St. Peter's Basilica"></div>
+        <div class="post-main">
+          <h3>Five free things to do in any new city</h3>
+          <p>A checklist for the first weekend somewhere new, before you've figured out what's actually worth paying for.</p>
+        </div>
+      </a>
+      <div class="post-meta"><span class="chip chip-draft">Draft</span></div>
+    </div>
+    <div class="post">
+      <a class="post-row" href="posts/packing-light.html">
+        <div class="post-thumb"><img src="img/backpack.jpg" alt="Backpack and water bottle on a hilltop at sunset"></div>
+        <div class="post-main">
+          <h3>Packing light: what I wish I knew</h3>
+          <p>What actually got used, what got left in a drawer all semester, and the one thing worth paying extra baggage for.</p>
+        </div>
+      </a>
+      <div class="post-meta"><span class="chip chip-draft">Draft</span></div>
+    </div>
+    <div class="post">
+      <a class="post-row" href="posts/visa-costs.html">
+        <div class="post-thumb"><img src="img/cinque-terre.jpg" alt="Colorful coastal town on the Italian Riviera"></div>
+        <div class="post-main">
+          <h3>Student visa costs, broken down</h3>
+          <p>Application fees, biometrics, translations, and insurance, all priced out so there are no surprises at the embassy.</p>
+        </div>
+      </a>
+      <div class="post-meta"><span class="chip chip-draft">Draft</span></div>
+    </div>
+  </div>
+
+  <div class="tear"></div>
+
+  <section>
+    <div class="news">
+      <span class="eyebrow mono" style="color:var(--orange)">Stay in the loop</span>
+      <h2>Be the first to know when guides drop</h2>
+      <div class="ml-slot"></div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ================= TRAVEL TIPS ================= -->
+<div class="wrap page" id="page-traveltips" hidden>
+  <div class="page-head">
+    <span class="eyebrow mono">Country by country</span>
+    <h1>Travel tips by destination</h1>
+    <p>Here are must-know tips that will make saving money while you travel easy. Every penny counts!</p>
+  </div>
+
+  <div class="countries">
+
+    <div class="country">
+      <div class="country-photo"><img src="img/backpack.jpg" alt="Backpack and water bottle on a hilltop at sunset"></div>
+      <div class="country-body">
+        <div class="country-head">
+          <h3>Spain</h3>
+          <span class="country-code">ES</span>
+        </div>
+        <div class="country-facts"><span>Currency: <b>Euro (€)</b></span><span>Visa: <b>required for non-EU stays over 90 days</b></span></div>
+        <ul class="country-tips">
+          <li>The "menu del día" at lunch gets you a full multi-course meal for a fraction of the dinner price.</li>
+          <li>A monthly transit pass (abono) beats single tickets after about 10–12 rides.</li>
+          <li>Look for piso-share listings through university boards before paying agency fees.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="country">
+      <div class="country-photo"><img src="img/cinque-terre.jpg" alt="Colorful coastal town on the Italian Riviera"></div>
+      <div class="country-body">
+        <div class="country-head">
+          <h3>Italy</h3>
+          <span class="country-code">IT</span>
+        </div>
+        <div class="country-facts"><span>Currency: <b>Euro (€)</b></span><span>Visa: <b>required for non-EU stays over 90 days</b></span></div>
+        <ul class="country-tips">
+          <li>Standing at the bar for coffee is cheaper than sitting at a table — ask for "al banco."</li>
+          <li>Regional trains cost far less than high-speed ones if you're not in a hurry.</li>
+          <li>Markets (mercati) undercut supermarkets badly on produce and are worth the early start.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="country">
+      <div class="country-photo"><img src="img/airplane.jpg" alt="Aircraft wing above sunset clouds"></div>
+      <div class="country-body">
+        <div class="country-head">
+          <h3>United Kingdom</h3>
+          <span class="country-code">GB</span>
+        </div>
+        <div class="country-facts"><span>Currency: <b>Pound sterling (£)</b></span><span>Visa: <b>student visa required for most non-UK/EU nationals</b></span></div>
+        <ul class="country-tips">
+          <li>A 16-25 Railcard cuts most train fares by a third and pays for itself in one trip.</li>
+          <li>Contactless capping on buses and the Tube usually beats buying a paper day pass.</li>
+          <li>Supermarket "reduced" sections near closing time are a reliable way to cut grocery costs.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="country">
+      <div class="country-photo"><img src="img/backpack.jpg" alt="Backpack and water bottle on a hilltop at sunset"></div>
+      <div class="country-body">
+        <div class="country-head">
+          <h3>France</h3>
+          <span class="country-code">FR</span>
+        </div>
+        <div class="country-facts"><span>Currency: <b>Euro (€)</b></span><span>Visa: <b>required for non-EU stays over 90 days</b></span></div>
+        <ul class="country-tips">
+          <li>University restaurants (CROUS) offer full meals at a fixed, subsidized student rate.</li>
+          <li>Book SNCF trains as early as they open for booking — prices climb steadily after that.</li>
+          <li>A student CAF housing subsidy can cover part of the rent — apply as soon as you sign a lease.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="country">
+      <div class="country-photo"><img src="img/airplane.jpg" alt="Aircraft wing above sunset clouds"></div>
+      <div class="country-body">
+        <div class="country-head">
+          <h3>Japan</h3>
+          <span class="country-code">JP</span>
+        </div>
+        <div class="country-facts"><span>Currency: <b>Japanese yen (¥)</b></span><span>Visa: <b>student visa required for most stays over 90 days</b></span></div>
+        <ul class="country-tips">
+          <li>Convenience-store meals (konbini) are cheap, fast, and better than their reputation suggests.</li>
+          <li>An IC card for trains and buses saves the hassle of single tickets and works almost everywhere.</li>
+          <li>100-yen shops cover most dorm-room basics for a fraction of department-store prices.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="country-more">More destinations coming soon — request one below.</div>
+
+  </div>
+
+  <div class="tear"></div>
+
+  <section>
+    <div class="news">
+      <span class="eyebrow mono" style="color:var(--orange)">Stay in the loop</span>
+      <h2>Be the first to know when guides drop</h2>
+      <div class="ml-slot"></div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ================= ABOUT ================= -->
+<div class="wrap page" id="page-about" hidden>
+  <div class="page-head">
+    <span class="eyebrow mono">About</span>
+    <h1>Hi, I'm Juliana</h1>
+  </div>
+  <div class="about" style="padding-block:16px 40px;">
+    <div class="about-photo"><img src="img/mountain-sunset.jpg" alt="Juliana smiling at sunset with mountains in the background"></div>
+    <div>
+      <p class="measure" style="color:var(--ink-soft);line-height:1.6;">
+        Hi, I'm Juliana, the founder of Pennies Abroad.
+      </p>
+      <p class="measure" style="color:var(--ink-soft);line-height:1.6;margin-top:14px;">
+        I grew up in New York, went to school in Florida, and in 2025 I took the leap to study abroad in Rome, Italy, where I lived, explored, and fell in love with travel on less than $2,000 (flights not included). These days, that study-abroad adventure continues in County Waterford, Ireland. Budgeting has always been second nature to me, and it's the very thing that made these experiences possible in the first place.
+      </p>
+      <p class="measure" style="color:var(--ink-soft);line-height:1.6;margin-top:14px;">
+        I created Pennies Abroad because I know too many students talk themselves out of studying abroad, convinced it's simply out of reach financially. It doesn't have to be. This is a place for honest, practical budget tips and real advice, built to help students and young travelers like you stop letting cost stand between you and the experience of a lifetime.
+      </p>
+      <ul class="facts">
+        <li><span class="k">Studied in</span><span>Rome, Italy and County Waterford, Ireland</span></li>
+        <li><span class="k">Home base</span><span>New York</span></li>
+        <li><span class="k">Say hello</span><span><a href="#newsletter">Join my free newsletter →</a></span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tear"></div>
+
+  <section>
+    <div class="news">
+      <span class="eyebrow mono" style="color:var(--orange)">Stay in the loop</span>
+      <h2>Be the first to know when guides drop</h2>
+      <div class="ml-slot"></div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ================= BUDGET RESOURCES ================= -->
+<div class="wrap page" id="page-resources" hidden>
+  <div class="page-head">
+    <span class="eyebrow mono">Budget resources</span>
+    <h1>Downloadable guides and resources</h1>
+    <p>We created the spreadsheets so you don't have to!</p>
+  </div>
+
+  <section style="padding-top:16px;">
+    <div class="resource-grid">
+      <div class="resource-card">
+        <div class="resource-image">[ cover image ]</div>
+        <div class="resource-body">
+          <span class="chip chip-free">Free</span>
+          <h3>Study abroad budget checklist</h3>
+          <span class="dl-actions">
+            <button type="button" class="btn btn-outline btn-small" data-download="budget-checklist">Download</button>
+            <span class="dl-status" aria-live="polite"></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="resource-card">
+        <div class="resource-image">[ cover image ]</div>
+        <div class="resource-body">
+          <span class="chip chip-free">Free</span>
+          <h3>Visa &amp; document tracker</h3>
+          <span class="dl-actions">
+            <button type="button" class="btn btn-outline btn-small" data-download="visa-tracker">Download</button>
+            <span class="dl-status" aria-live="polite"></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="resource-card">
+        <div class="resource-image">[ cover image ]</div>
+        <div class="resource-body">
+          <span class="chip chip-free">Free</span>
+          <h3>Packing list for every climate</h3>
+          <span class="dl-actions">
+            <button type="button" class="btn btn-outline btn-small" data-download="packing-list">Download</button>
+            <span class="dl-status" aria-live="polite"></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="resource-card">
+        <div class="resource-image">[ cover image ]</div>
+        <div class="resource-body">
+          <span class="chip chip-paid">Coming soon</span>
+          <h3>Complete pre-departure toolkit</h3>
+        </div>
+      </div>
+
+      <div class="resource-card">
+        <div class="resource-image">[ cover image ]</div>
+        <div class="resource-body">
+          <span class="chip chip-paid">Coming soon</span>
+          <h3>City-by-city budget guides</h3>
+        </div>
+      </div>
+
+      <div class="resource-card">
+        <div class="resource-image">[ cover image ]</div>
+        <div class="resource-body">
+          <span class="chip chip-paid">Coming soon</span>
+          <h3>Scholarship &amp; grant finder kit</h3>
+        </div>
+      </div>
+    </div>
+    <p class="paid-note">Paid guides aren't available for purchase yet — join the list below and you'll get an email the day they launch.</p>
+  </section>
+
+  <div class="tear"></div>
+
+  <section>
+    <div class="news">
+      <span class="eyebrow mono" style="color:var(--orange)">Stay in the loop</span>
+      <h2>Be the first to know when guides drop</h2>
+      <div class="ml-slot"></div>
+    </div>
+  </section>
+
+</div>
+<style id="cm-css">
+
+  /* ---------- cost map ---------- */
+  .cm-note{background:var(--paper-alt);border:1px solid var(--line);border-left:4px solid var(--gold-bg);border-radius:6px;padding:14px 18px;margin:0 0 22px;font-size:0.95rem;line-height:1.55;color:var(--ink);}
+  .cm-layout{display:block;}
+  .cm-figure{margin:0;position:relative;max-width:900px;}
+  .cm-svg{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:10px;background:#F4F9FD;}
+  .cm-sea{fill:#F4F9FD;}
+  .cm-land{fill:#CFE4F3;stroke:#CFE4F3;stroke-width:1.5;stroke-linejoin:round;}
+  .cm-sea2{fill:#F4F9FD;}
+  .cm-grat{fill:none;stroke:#B6D3EA;stroke-width:.6;opacity:.7;}
+  .cm-borders{fill:none;stroke:#fff;stroke-width:1.4;stroke-linejoin:round;stroke-linecap:round;}
+  .cm-frame{fill:none;stroke:#B6D3EA;stroke-width:1;}
+  .cm-marker{cursor:pointer;outline:none;}
+  .cm-hit{fill:transparent;}
+  .cm-dot{stroke:var(--ink);stroke-width:2;transition:r .12s;}
+  .cm-t1.cm-dot,.cm-t1 .cm-dot{fill:#F6BC3E;}
+  .cm-t2.cm-dot,.cm-t2 .cm-dot{fill:#E17A1F;}
+  .cm-t3.cm-dot,.cm-t3 .cm-dot{fill:#155A85;}
+  .cm-t4.cm-dot,.cm-t4 .cm-dot{fill:#14304A;}
+  .cm-lbl{font-family:"Nunito",system-ui,sans-serif;font-weight:800;font-size:18px;fill:var(--ink);paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round;pointer-events:none;}
+  @media (max-width:560px){ .cm-lbl{font-size:27px;stroke-width:5px;} .cm-dot{stroke-width:2.5;} }
+  .cm-marker:hover .cm-dot{r:11;}
+  .cm-marker:focus-visible .cm-dot{r:11;stroke:var(--teal-bright);stroke-width:4;}
+  .cm-marker.is-active .cm-dot{r:12;stroke-width:4;}
+  .cm-legend{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px 18px;font-size:0.85rem;color:var(--ink-soft);}
+  .cm-legend li{display:flex;align-items:center;gap:8px;}
+  .cm-key{display:inline-block;width:14px;height:14px;border-radius:50%;border:2px solid var(--ink);flex:none;}
+  .cm-key.cm-t1{background:#F6BC3E;} .cm-key.cm-t2{background:#E17A1F;} .cm-key.cm-t3{background:#155A85;} .cm-key.cm-t4{background:#14304A;}
+  .cm-caption{font-size:0.78rem;color:var(--ink-soft);margin:8px 0 0;}
+  .cm-pop{position:absolute;z-index:6;width:340px;max-width:calc(100% - 16px);background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 30px rgba(20,48,74,.25);}
+  .cm-card{padding:20px 22px 18px;}
+  .cm-close{position:absolute;top:8px;right:8px;width:36px;height:36px;border:0;border-radius:50%;background:transparent;color:var(--ink);font-size:1.6rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;}
+  .cm-close:hover{background:var(--paper-alt);}
+  .cm-close:focus-visible{outline:2px solid var(--teal-bright);outline-offset:1px;}
+  .cm-pop.is-hover{pointer-events:none;}
+  .cm-pop.is-hover .cm-close{visibility:hidden;}
+  .cm-pop:not([hidden]){animation:cmfade .12s ease-out;}
+  @keyframes cmfade{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:none;}}
+  @media (prefers-reduced-motion:reduce){ .cm-pop:not([hidden]){animation:none;} }
+  .cm-backdrop{position:fixed;inset:0;background:rgba(20,48,74,.4);z-index:39;}
+  .cm-pop.is-sheet{position:fixed;left:0;right:0;bottom:0;top:auto!important;width:auto;max-width:none;max-height:82vh;overflow-y:auto;border-radius:16px 16px 0 0;z-index:40;padding-bottom:env(safe-area-inset-bottom,0px);}
+  .cm-card h3{font-size:1.7rem;margin-top:10px;}
+  .cm-country{margin:0;color:var(--ink-soft);font-size:0.9rem;}
+  .cm-chip{display:inline-block;font-family:"Space Mono",monospace;font-size:0.64rem;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:20px;}
+  .cm-chip.cm-t1{background:#F6BC3E;color:#14304A;} .cm-chip.cm-t2{background:#E17A1F;color:#14304A;} .cm-chip.cm-t3{background:#155A85;color:#fff;} .cm-chip.cm-t4{background:#14304A;color:#fff;}
+  .cm-big{font-family:"Baloo 2","Nunito",sans-serif;font-weight:700;font-size:2rem;line-height:1.1;margin:16px 0 0;color:var(--ink);}
+  .cm-big span{font-size:1.15rem;color:var(--ink-soft);font-weight:600;}
+  .cm-sub{margin:4px 0 0;font-size:0.9rem;color:var(--ink-soft);}
+  .cm-break{margin:18px 0 0;border-top:1px solid var(--line);}
+  .cm-break>div{display:flex;justify-content:space-between;gap:14px;padding:12px 0;border-bottom:1px solid var(--line);}
+  .cm-break dt{font-weight:700;font-size:0.95rem;}
+  .cm-break dt small{display:block;font-weight:400;color:var(--ink-soft);font-size:0.8rem;margin-top:2px;}
+  .cm-break dd{margin:0;text-align:right;font-weight:700;white-space:nowrap;}
+  .cm-break dd span{display:block;font-weight:400;color:var(--ink-soft);font-size:0.85rem;}
+  .cm-sight{margin-top:16px;display:flex;flex-direction:column;gap:2px;font-size:0.95rem;}
+  .cm-sight-label{font-family:"Space Mono",monospace;font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);}
+  .cm-sight-price{color:var(--ink);}
+  .cm-sight small{color:var(--ink-soft);font-size:0.8rem;line-height:1.45;margin-top:2px;}
+  .cm-foot{margin:16px 0 0;font-size:0.8rem;color:var(--ink-soft);line-height:1.5;}
+  .cm-pop .cm-card{padding:16px 18px 14px;}
+  .cm-pop .cm-chip{font-size:0.58rem;padding:2px 8px;}
+  .cm-pop h3{font-size:1.35rem;margin-top:8px;line-height:1.15;}
+  .cm-pop .cm-country{font-size:0.8rem;}
+  .cm-pop .cm-big{font-size:1.6rem;margin-top:10px;}
+  .cm-pop .cm-big span{font-size:1rem;}
+  .cm-pop .cm-sub{font-size:0.8rem;margin-top:2px;line-height:1.35;}
+  .cm-pop .cm-break{margin-top:12px;}
+  .cm-pop .cm-break>div{padding:8px 0;gap:10px;}
+  .cm-pop .cm-break dt{font-size:0.88rem;}
+  .cm-pop .cm-break dt small{font-size:0.72rem;line-height:1.3;}
+  .cm-pop .cm-break dd{font-size:0.92rem;}
+  .cm-pop .cm-break dd span{font-size:0.78rem;}
+  .cm-pop .cm-sight{margin-top:12px;font-size:0.88rem;gap:1px;}
+  .cm-pop .cm-sight small{font-size:0.74rem;line-height:1.35;}
+  .cm-pop .cm-foot{margin-top:10px;font-size:0.72rem;line-height:1.4;}
+  .cm-h2{font-size:clamp(1.3rem,3vw,1.7rem);margin:40px 0 14px;}
+  .cm-tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;}
+  .cm-table{width:100%;border-collapse:collapse;font-size:0.95rem;}
+  @media (max-width:560px){ .cm-table{font-size:0.88rem;} .cm-table th,.cm-table td{padding:10px 6px;} .cm-table th:first-child,.cm-table td:first-child{padding-left:12px;} .cm-table thead th{font-size:0.6rem;letter-spacing:.04em;} .cm-rowbtn{column-gap:8px;} .cm-card{padding:20px;} }
+  .cm-table th,.cm-table td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--line);vertical-align:top;}
+  .cm-table thead th{font-family:"Space Mono",monospace;font-size:0.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);background:var(--paper-alt);}
+  .cm-table td{white-space:nowrap;}
+  .cm-table tbody tr:last-child th,.cm-table tbody tr:last-child td{border-bottom:0;}
+  .cm-table tbody tr.is-active{background:var(--paper-alt);}
+  .cm-table td small,.cm-rowbtn small{display:block;color:var(--ink-soft);font-size:0.8rem;font-weight:400;}
+  .cm-rowbtn{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:auto 1fr;column-gap:10px;align-items:center;font-weight:700;color:var(--ink);}
+  .cm-rowbtn small{grid-column:2;}
+  .cm-rowbtn:focus-visible{outline:2px solid var(--teal-bright);outline-offset:3px;border-radius:4px;}
+  .cm-how{margin-top:28px;border:1px solid var(--line);border-radius:10px;padding:4px 18px;}
+  .cm-how summary{cursor:pointer;font-weight:700;padding:12px 0;}
+  .cm-how summary:focus-visible{outline:2px solid var(--teal-bright);outline-offset:2px;}
+  .cm-how-body{padding-bottom:12px;font-size:0.92rem;color:var(--ink-soft);line-height:1.6;}
+  .cm-how-body p{margin:0 0 10px;}
+  .cm-how-body strong{color:var(--ink);}
+  .cm-updated{font-size:0.72rem;color:var(--ink-soft);margin:14px 0 0;}
+
+</style>
+
+<!-- ================= COST MAP ================= -->
+<div class="wrap page" id="page-map" hidden>
+  <div class="page-head">
+    <span class="eyebrow mono">Weekend cost map</span>
+    <h1>What does a weekend in Europe cost a student?</h1>
+    <p>Pick a city to see a realistic budget for two nights: a hostel bed, food, and getting around.</p>
+  </div>
+
+  <section style="padding-top:16px;">
+    <p class="cm-note" role="note"><strong>Flights are not included.</strong> Every figure is per person for a 2-night weekend and covers a hostel dorm bed, food and local transit only. It does not include flights or other transport to the city, shopping, nightlife, or sightseeing tickets.</p>
+
+    <div class="cm-layout">
+      <div class="cm-figure" id="cm-figure">
+        <svg class="cm-svg" viewBox="0 0 800.0 589.4" role="group" aria-label="Map of Western and Central Europe with 10 cities. Use the city list below the map for the same information."><defs><clipPath id="cmclip"><path d="M0.0,518.8L7.7,521.2L15.5,523.5L23.3,525.7L31.1,528.0L38.8,530.1L46.6,532.3L54.5,534.4L62.3,536.5L70.1,538.5L78.0,540.5L85.8,542.4L93.7,544.3L101.6,546.2L109.4,548.0L117.3,549.8L125.2,551.6L133.1,553.3L141.0,555.0L149.0,556.6L156.9,558.2L164.8,559.8L172.8,561.3L180.7,562.8L188.7,564.2L196.7,565.6L204.7,567.0L212.6,568.3L220.6,569.6L228.6,570.8L236.6,572.0L244.6,573.2L252.7,574.3L260.7,575.4L268.7,576.4L276.7,577.4L284.8,578.4L292.8,579.3L300.8,580.2L308.9,581.0L316.9,581.8L325.0,582.6L333.1,583.3L341.1,584.0L349.2,584.6L357.3,585.2L365.3,585.8L373.4,586.3L381.5,586.8L389.6,587.2L397.6,587.6L405.7,588.0L413.8,588.3L421.9,588.6L430.0,588.9L438.1,589.0L446.2,589.2L454.3,589.3L462.4,589.4L470.4,589.4L478.5,589.4L486.6,589.4L494.7,589.3L502.8,589.2L510.9,589.0L519.0,588.8L527.1,588.6L535.2,588.3L543.3,588.0L551.3,587.6L559.4,587.2L567.5,586.8L575.6,586.3L583.7,585.8L591.7,585.2L599.8,584.6L607.9,583.9L615.9,583.3L624.0,582.5L632.0,581.8L640.1,581.0L648.1,580.1L656.2,579.2L664.2,578.3L672.3,577.3L680.3,576.3L688.3,575.3L696.3,574.2L704.3,573.1L712.3,571.9L720.3,570.7L728.3,569.5L736.3,568.2L744.3,566.9L752.3,565.5L760.3,564.1L768.2,562.7L776.2,561.2L784.1,559.7L792.1,558.1L800.0,556.5L800.0,556.5L798.9,551.1L797.8,545.6L796.7,540.2L795.6,534.8L794.5,529.4L793.4,524.0L792.3,518.6L791.2,513.2L790.0,507.8L788.9,502.4L787.8,497.0L786.7,491.6L785.6,486.3L784.5,480.9L783.4,475.5L782.4,470.1L781.3,464.8L780.2,459.4L779.1,454.1L778.0,448.7L776.9,443.3L775.8,438.0L774.7,432.6L773.6,427.3L772.5,422.0L771.4,416.6L770.3,411.3L769.2,406.0L768.1,400.6L767.1,395.3L766.0,390.0L764.9,384.7L763.8,379.3L762.7,374.0L761.6,368.7L760.5,363.4L759.5,358.1L758.4,352.8L757.3,347.5L756.2,342.2L755.1,336.9L754.0,331.6L752.9,326.3L751.9,321.0L750.8,315.7L749.7,310.4L748.6,305.1L747.5,299.8L746.5,294.5L745.4,289.2L744.3,283.9L743.2,278.6L742.1,273.4L741.1,268.1L740.0,262.8L738.9,257.5L737.8,252.2L736.7,247.0L735.7,241.7L734.6,236.4L733.5,231.1L732.4,225.8L731.3,220.6L730.3,215.3L729.2,210.0L728.1,204.7L727.0,199.5L726.0,194.2L724.9,188.9L723.8,183.6L722.7,178.4L721.6,173.1L720.6,167.8L719.5,162.5L718.4,157.3L717.3,152.0L716.3,146.7L715.2,141.4L714.1,136.2L713.0,130.9L711.9,125.6L710.9,120.3L709.8,115.1L708.7,109.8L707.6,104.5L706.5,99.2L705.5,93.9L704.4,88.6L703.3,83.4L702.2,78.1L701.1,72.8L700.1,67.5L699.0,62.2L697.9,56.9L696.8,51.6L695.7,46.3L694.7,41.0L693.6,35.7L692.5,30.4L691.4,25.1L691.4,25.1L686.1,26.2L680.8,27.2L675.5,28.2L670.2,29.2L664.9,30.2L659.6,31.1L654.3,32.0L649.0,32.9L643.6,33.8L638.3,34.6L633.0,35.4L627.6,36.2L622.3,36.9L616.9,37.6L611.6,38.3L606.2,39.0L600.9,39.7L595.5,40.3L590.2,40.9L584.8,41.4L579.4,42.0L574.0,42.5L568.7,43.0L563.3,43.4L557.9,43.8L552.5,44.2L547.2,44.6L541.8,45.0L536.4,45.3L531.0,45.6L525.6,45.9L520.2,46.1L514.8,46.3L509.4,46.5L504.1,46.7L498.7,46.8L493.3,46.9L487.9,47.0L482.5,47.0L477.1,47.1L471.7,47.1L466.3,47.0L460.9,47.0L455.5,46.9L450.1,46.8L444.7,46.7L439.3,46.5L433.9,46.3L428.5,46.1L423.1,45.9L417.8,45.6L412.4,45.3L407.0,45.0L401.6,44.6L396.2,44.3L390.8,43.9L385.5,43.4L380.1,43.0L374.7,42.5L369.3,42.0L364.0,41.5L358.6,40.9L353.2,40.3L347.9,39.7L342.5,39.1L337.2,38.4L331.8,37.7L326.5,37.0L321.1,36.2L315.8,35.5L310.5,34.7L305.1,33.8L299.8,33.0L294.5,32.1L289.2,31.2L283.9,30.3L278.5,29.3L273.2,28.3L267.9,27.3L262.6,26.3L257.4,25.2L252.1,24.1L246.8,23.0L241.5,21.8L236.3,20.7L231.0,19.5L225.7,18.3L220.5,17.0L215.3,15.7L210.0,14.4L204.8,13.1L199.6,11.8L194.3,10.4L189.1,9.0L183.9,7.5L178.7,6.1L173.6,4.6L168.4,3.1L163.2,1.6L158.0,0.0L158.0,0.0L156.5,5.2L154.9,10.4L153.3,15.5L151.7,20.7L150.2,25.9L148.6,31.0L147.0,36.2L145.4,41.4L143.9,46.5L142.3,51.7L140.7,56.9L139.1,62.0L137.6,67.2L136.0,72.4L134.4,77.5L132.9,82.7L131.3,87.8L129.7,93.0L128.1,98.1L126.6,103.3L125.0,108.4L123.4,113.6L121.9,118.7L120.3,123.9L118.7,129.0L117.2,134.2L115.6,139.3L114.0,144.5L112.5,149.6L110.9,154.8L109.3,159.9L107.8,165.1L106.2,170.2L104.6,175.4L103.0,180.5L101.5,185.7L99.9,190.8L98.3,196.0L96.8,201.1L95.2,206.3L93.6,211.5L92.1,216.6L90.5,221.8L88.9,226.9L87.3,232.1L85.8,237.2L84.2,242.4L82.6,247.5L81.1,252.7L79.5,257.9L77.9,263.0L76.3,268.2L74.8,273.4L73.2,278.5L71.6,283.7L70.0,288.9L68.5,294.0L66.9,299.2L65.3,304.4L63.7,309.6L62.2,314.7L60.6,319.9L59.0,325.1L57.4,330.3L55.8,335.5L54.3,340.7L52.7,345.9L51.1,351.1L49.5,356.3L47.9,361.5L46.4,366.7L44.8,371.9L43.2,377.1L41.6,382.3L40.0,387.5L38.4,392.7L36.8,397.9L35.2,403.1L33.7,408.4L32.1,413.6L30.5,418.8L28.9,424.0L27.3,429.3L25.7,434.5L24.1,439.8L22.5,445.0L20.9,450.3L19.3,455.5L17.7,460.8L16.1,466.0L14.5,471.3L12.9,476.6L11.3,481.8L9.7,487.1L8.1,492.4L6.4,497.7L4.8,503.0L3.2,508.2L1.6,513.5L0.0,518.8Z"/></clipPath><clipPath id="cmland"><path d="M70.3,510.1L83.5,475.2L71.4,463.7L79.5,449.3L93.6,428.2L104.1,403.4L106.3,379.3L104.8,354.2L129.9,341.6L150.0,347.8L170.2,353.7L190.4,360.0L210.8,366.0L248.4,373.9L260.4,346.4L268.1,320.9L270.1,307.8L257.2,273.8L238.3,262.5L219.8,251.0L217.7,234.5L250.4,230.0L273.9,236.6L272.9,209.8L285.2,219.7L308.2,215.0L331.6,204.7L335.3,186.6L350.7,183.0L369.4,176.8L377.2,161.6L390.2,138.9L398.8,129.0L425.6,127.8L450.8,123.3L454.1,112.8L447.3,73.1L446.5,44.1L452.6,31.0L467.7,23.3L482.7,15.3L480.0,41.8L485.9,54.9L474.2,73.5L469.6,86.6L477.2,99.8L489.5,102.3L505.0,107.3L526.1,98.6L539.2,113.8L566.2,101.4L584.7,93.1L602.9,84.6L619.4,93.2L640.5,68.9L632.8,27.4L643.7,4.3L667.5,16.3L678.8,6.1L675.0,-20.2L657.0,-41.1L672.8,-52.3L686.9,-55.2L701.0,-58.4L715.0,-61.7L728.1,-70.6L740.9,-79.5L724.7,-83.4L708.6,-87.6L696.6,-81.1L684.5,-74.7L672.3,-68.5L659.7,-63.3L647.1,-58.3L624.0,-76.1L620.7,-97.2L612.1,-136.7L623.0,-160.4L632.3,-175.8L641.2,-191.4L650.4,-198.8L630.4,-217.1L619.9,-212.4L609.2,-207.8L602.5,-176.4L597.6,-142.8L585.7,-130.4L573.4,-118.1L568.7,-77.1L570.0,-63.8L592.5,-52.9L589.1,-36.4L570.4,-18.4L568.4,5.8L568.6,40.3L556.3,51.9L539.8,71.5L519.1,75.2L515.5,59.5L507.7,46.6L499.6,15.0L490.6,-16.6L482.3,-32.5L460.4,-16.6L446.1,4.4L432.0,6.5L413.8,-18.3L406.8,-37.4L409.9,-63.9L410.2,-88.0L414.0,-106.6L437.3,-124.3L449.8,-133.3L462.1,-142.5L480.1,-161.4L491.4,-184.7L502.0,-208.3L512.4,-226.6L522.2,-245.1L535.5,-279.4L544.3,-294.2L552.8,-309.2L560.9,-324.3L569.8,-330.4L578.6,-336.7L587.2,-343.1L595.7,-349.5L604.7,-352.4L613.6,-355.4L622.5,-358.6L631.4,-361.8L640.1,-365.2L648.9,-368.6L657.5,-372.2L666.0,-376.1L674.5,-380.1L682.9,-384.2L691.2,-388.4L699.4,-392.8L707.6,-397.2L715.7,-401.7L723.7,-406.4L731.6,-411.1L739.4,-415.9L747.2,-420.9L754.9,-425.9L762.5,-431.0L770.0,-436.2L777.4,-441.5L784.7,-446.9L791.9,-452.4L799.0,-458.0L806.1,-463.7L813.0,-469.4L827.7,-444.8L842.2,-420.4L856.6,-396.3L870.9,-372.3L885.1,-348.5L899.2,-324.9L913.2,-301.4L927.1,-278.1L941.0,-254.8L954.8,-231.7L968.5,-208.7L982.2,-185.7L995.8,-162.8L1009.4,-140.0L1022.9,-117.3L1036.5,-94.6L1050.0,-72.0L1063.5,-49.3L1076.9,-26.8L1090.4,-4.2L1103.8,18.4L1117.3,40.9L1130.7,63.5L1144.2,86.1L1157.6,108.6L1171.1,131.2L1184.6,153.9L1198.1,176.5L1211.7,199.3L1225.2,222.0L1238.8,244.8L1252.5,267.7L1266.1,290.6L1279.9,313.7L1293.6,336.7L1307.4,359.9L1288.1,370.2L1268.6,380.1L1249.0,389.8L1229.3,399.3L1209.5,408.4L1189.6,417.3L1169.6,425.9L1149.4,434.2L1129.2,442.3L1108.9,450.1L1088.4,457.6L1067.9,464.8L1047.3,471.8L1026.7,478.4L1007.1,488.3L987.4,497.8L967.6,507.2L947.5,516.3L912.4,512.5L889.1,517.5L865.8,522.2L842.9,519.4L818.5,489.2L805.4,459.2L810.1,433.6L793.4,423.7L774.2,430.4L755.0,436.9L747.5,451.9L733.6,443.6L730.8,463.0L746.2,479.3L767.5,502.5L758.1,509.8L750.0,524.9L750.9,554.8L729.9,547.4L711.3,525.8L717.2,508.6L696.6,498.1L683.0,475.8L664.3,459.4L659.6,422.5L651.1,418.2L637.9,406.4L619.1,395.1L596.8,383.9L572.5,367.2L556.5,352.4L541.0,342.7L542.3,332.1L516.7,338.4L521.2,362.0L541.1,385.0L564.0,412.9L594.5,426.6L612.2,446.4L646.8,466.9L615.9,464.8L609.8,486.7L621.5,501.8L610.5,518.9L594.8,533.6L593.6,517.6L601.6,487.5L588.4,477.8L571.1,463.0L558.7,458.4L534.1,448.9L521.7,436.1L495.7,418.1L483.8,402.4L478.0,378.6L455.3,365.3L436.1,378.1L424.5,381.7L410.5,395.7L383.8,391.6L370.5,388.1L349.0,391.6L339.3,412.0L340.3,422.8L327.7,429.6L319.0,436.7L298.3,442.4L287.0,451.7L262.2,483.4L270.3,500.7L247.1,530.0L218.9,544.7L205.2,547.9L164.8,540.5L140.3,552.1L123.5,537.4L104.6,513.7L90.8,515.9Z M-64.2,729.6L-27.1,704.0L9.0,678.0L37.7,634.2L64.8,621.3L91.4,608.0L121.2,578.4L138.7,560.0L163.2,571.9L188.0,583.3L219.9,594.1L255.4,580.1L278.5,572.2L301.3,563.9L323.3,560.8L344.8,562.6L366.3,564.2L388.0,563.7L409.6,563.0L431.2,561.9L469.9,554.4L489.2,565.1L497.8,559.6L483.0,603.0L476.4,635.6L496.9,657.2L508.6,668.0L543.2,672.4L570.0,678.0L597.0,683.1L603.2,704.8L633.5,713.3L664.0,721.4L710.7,729.7L706.5,680.1L737.7,653.4L773.6,658.5L800.7,664.7L828.1,670.5L858.7,671.4L889.5,671.8L920.4,671.6L941.1,657.4L961.6,643.0L998.6,643.4L1035.2,625.8L1037.2,581.4L1039.2,546.0L1033.8,504.6L1026.7,478.4L1047.3,471.8L1067.9,464.8L1088.4,457.6L1108.9,450.1L1129.2,442.3L1149.4,434.2L1169.6,425.9L1189.6,417.3L1209.5,408.4L1229.3,399.3L1249.0,389.8L1268.6,380.1L1288.1,370.2L1307.4,359.9L1321.3,383.2L1335.2,406.5L1349.2,430.0L1363.3,453.6L1377.4,477.3L1391.6,501.1L1405.9,525.1L1420.2,549.1L1434.7,573.4L1449.2,597.8L1427.2,610.7L1404.9,623.4L1382.5,635.7L1359.9,647.8L1337.2,659.5L1314.3,671.0L1291.3,682.1L1268.1,692.9L1244.7,703.5L1221.3,713.7L1197.7,723.5L1173.9,733.1L1150.1,742.3L1126.1,751.3L1102.0,759.9L1077.8,768.1L1053.4,776.1L1029.0,783.7L1004.5,791.0L979.9,798.0L955.1,804.6L930.3,810.9L905.4,816.9L880.5,822.5L855.4,827.8L830.3,832.7L805.2,837.4L779.9,841.6L754.6,845.6L729.3,849.2L703.9,852.4L678.5,855.3L653.0,857.9L627.5,860.2L602.0,862.0L576.5,863.6L550.9,864.8L525.3,865.7L499.8,866.2L474.2,866.3L448.6,866.2L423.0,865.7L397.4,864.8L371.8,863.6L346.3,862.0L320.8,860.2L295.3,857.9L269.8,855.3L244.4,852.4L219.0,849.2L193.7,845.6L168.4,841.6L143.2,837.4L118.0,832.7L92.9,827.8L67.8,822.5L42.9,816.9L18.0,810.9L-6.8,804.6L-31.5,798.0L-56.1,791.0L-80.7,783.7L-72.4,756.6Z M211.7,187.7L237.4,187.5L250.4,182.0L267.0,183.6L283.7,184.9L303.6,186.6L323.5,187.9L332.8,179.7L333.6,173.2L320.6,171.6L326.7,161.8L341.7,145.0L342.3,139.8L322.4,132.1L322.2,121.5L317.4,110.2L312.7,98.9L305.5,84.6L301.1,73.2L300.5,57.2L294.9,45.6L289.1,44.6L284.7,35.8L302.1,20.0L307.4,4.7L288.3,-1.2L276.7,-0.7L288.4,-25.4L295.2,-24.2L281.6,-26.7L268.1,-29.4L257.7,-7.1L250.8,4.9L247.8,25.9L244.3,49.4L249.4,69.3L269.3,70.5L275.3,71.6L275.0,90.3L265.7,107.3L270.9,113.6L246.2,109.0L249.4,125.7L248.5,138.9L231.1,143.4L243.9,154.0L262.7,160.2L256.5,167.1L241.9,164.3L226.9,172.1Z M218.5,132.7L219.9,111.5L225.4,93.9L237.4,74.9L233.5,71.4L230.9,54.6L217.5,46.1L201.0,50.3L194.2,64.8L169.9,66.6L165.0,84.3L161.7,102.5L151.3,116.0L159.7,134.6L179.9,134.4L198.5,133.5L212.2,131.3Z M524.9,534.8L545.8,528.6L568.9,526.0L591.9,523.1L583.2,550.7L586.5,566.6L566.9,565.2Z M438.0,455.0L458.2,450.1L468.1,468.8L468.0,503.4L451.3,511.3L440.9,508.4L443.5,481.8Z M446.8,418.0L462.6,402.4L464.3,428.9L458.2,444.7L448.4,436.6Z M318.1,484.8L339.3,478.8L331.7,494.2L317.8,487.4Z M770.2,576.0L801.1,572.8L831.9,569.1L801.1,583.9L771.2,581.4Z M489.1,70.7L512.9,70.2L511.0,57.0L491.9,60.1Z M101.9,-280.7L117.4,-286.9L132.7,-293.4L142.3,-287.9L151.9,-282.5L161.7,-277.2L171.6,-272.0L181.5,-267.0L189.7,-257.1L198.1,-247.3L206.7,-237.6L191.6,-211.1L175.7,-207.1L159.5,-203.4L143.1,-200.1L132.9,-207.1L122.9,-214.2L112.9,-221.5L103.1,-228.9L102.2,-254.8Z"/></clipPath></defs><g clip-path="url(#cmclip)"><rect class="cm-sea" width="800.0" height="589.4"/><path class="cm-land" d="M70.3,510.1L83.5,475.2L71.4,463.7L79.5,449.3L93.6,428.2L104.1,403.4L106.3,379.3L104.8,354.2L129.9,341.6L150.0,347.8L170.2,353.7L190.4,360.0L210.8,366.0L248.4,373.9L260.4,346.4L268.1,320.9L270.1,307.8L257.2,273.8L238.3,262.5L219.8,251.0L217.7,234.5L250.4,230.0L273.9,236.6L272.9,209.8L285.2,219.7L308.2,215.0L331.6,204.7L335.3,186.6L350.7,183.0L369.4,176.8L377.2,161.6L390.2,138.9L398.8,129.0L425.6,127.8L450.8,123.3L454.1,112.8L447.3,73.1L446.5,44.1L452.6,31.0L467.7,23.3L482.7,15.3L480.0,41.8L485.9,54.9L474.2,73.5L469.6,86.6L477.2,99.8L489.5,102.3L505.0,107.3L526.1,98.6L539.2,113.8L566.2,101.4L584.7,93.1L602.9,84.6L619.4,93.2L640.5,68.9L632.8,27.4L643.7,4.3L667.5,16.3L678.8,6.1L675.0,-20.2L657.0,-41.1L672.8,-52.3L686.9,-55.2L701.0,-58.4L715.0,-61.7L728.1,-70.6L740.9,-79.5L724.7,-83.4L708.6,-87.6L696.6,-81.1L684.5,-74.7L672.3,-68.5L659.7,-63.3L647.1,-58.3L624.0,-76.1L620.7,-97.2L612.1,-136.7L623.0,-160.4L632.3,-175.8L641.2,-191.4L650.4,-198.8L630.4,-217.1L619.9,-212.4L609.2,-207.8L602.5,-176.4L597.6,-142.8L585.7,-130.4L573.4,-118.1L568.7,-77.1L570.0,-63.8L592.5,-52.9L589.1,-36.4L570.4,-18.4L568.4,5.8L568.6,40.3L556.3,51.9L539.8,71.5L519.1,75.2L515.5,59.5L507.7,46.6L499.6,15.0L490.6,-16.6L482.3,-32.5L460.4,-16.6L446.1,4.4L432.0,6.5L413.8,-18.3L406.8,-37.4L409.9,-63.9L410.2,-88.0L414.0,-106.6L437.3,-124.3L449.8,-133.3L462.1,-142.5L480.1,-161.4L491.4,-184.7L502.0,-208.3L512.4,-226.6L522.2,-245.1L535.5,-279.4L544.3,-294.2L552.8,-309.2L560.9,-324.3L569.8,-330.4L578.6,-336.7L587.2,-343.1L595.7,-349.5L604.7,-352.4L613.6,-355.4L622.5,-358.6L631.4,-361.8L640.1,-365.2L648.9,-368.6L657.5,-372.2L666.0,-376.1L674.5,-380.1L682.9,-384.2L691.2,-388.4L699.4,-392.8L707.6,-397.2L715.7,-401.7L723.7,-406.4L731.6,-411.1L739.4,-415.9L747.2,-420.9L754.9,-425.9L762.5,-431.0L770.0,-436.2L777.4,-441.5L784.7,-446.9L791.9,-452.4L799.0,-458.0L806.1,-463.7L813.0,-469.4L827.7,-444.8L842.2,-420.4L856.6,-396.3L870.9,-372.3L885.1,-348.5L899.2,-324.9L913.2,-301.4L927.1,-278.1L941.0,-254.8L954.8,-231.7L968.5,-208.7L982.2,-185.7L995.8,-162.8L1009.4,-140.0L1022.9,-117.3L1036.5,-94.6L1050.0,-72.0L1063.5,-49.3L1076.9,-26.8L1090.4,-4.2L1103.8,18.4L1117.3,40.9L1130.7,63.5L1144.2,86.1L1157.6,108.6L1171.1,131.2L1184.6,153.9L1198.1,176.5L1211.7,199.3L1225.2,222.0L1238.8,244.8L1252.5,267.7L1266.1,290.6L1279.9,313.7L1293.6,336.7L1307.4,359.9L1288.1,370.2L1268.6,380.1L1249.0,389.8L1229.3,399.3L1209.5,408.4L1189.6,417.3L1169.6,425.9L1149.4,434.2L1129.2,442.3L1108.9,450.1L1088.4,457.6L1067.9,464.8L1047.3,471.8L1026.7,478.4L1007.1,488.3L987.4,497.8L967.6,507.2L947.5,516.3L912.4,512.5L889.1,517.5L865.8,522.2L842.9,519.4L818.5,489.2L805.4,459.2L810.1,433.6L793.4,423.7L774.2,430.4L755.0,436.9L747.5,451.9L733.6,443.6L730.8,463.0L746.2,479.3L767.5,502.5L758.1,509.8L750.0,524.9L750.9,554.8L729.9,547.4L711.3,525.8L717.2,508.6L696.6,498.1L683.0,475.8L664.3,459.4L659.6,422.5L651.1,418.2L637.9,406.4L619.1,395.1L596.8,383.9L572.5,367.2L556.5,352.4L541.0,342.7L542.3,332.1L516.7,338.4L521.2,362.0L541.1,385.0L564.0,412.9L594.5,426.6L612.2,446.4L646.8,466.9L615.9,464.8L609.8,486.7L621.5,501.8L610.5,518.9L594.8,533.6L593.6,517.6L601.6,487.5L588.4,477.8L571.1,463.0L558.7,458.4L534.1,448.9L521.7,436.1L495.7,418.1L483.8,402.4L478.0,378.6L455.3,365.3L436.1,378.1L424.5,381.7L410.5,395.7L383.8,391.6L370.5,388.1L349.0,391.6L339.3,412.0L340.3,422.8L327.7,429.6L319.0,436.7L298.3,442.4L287.0,451.7L262.2,483.4L270.3,500.7L247.1,530.0L218.9,544.7L205.2,547.9L164.8,540.5L140.3,552.1L123.5,537.4L104.6,513.7L90.8,515.9Z M-64.2,729.6L-27.1,704.0L9.0,678.0L37.7,634.2L64.8,621.3L91.4,608.0L121.2,578.4L138.7,560.0L163.2,571.9L188.0,583.3L219.9,594.1L255.4,580.1L278.5,572.2L301.3,563.9L323.3,560.8L344.8,562.6L366.3,564.2L388.0,563.7L409.6,563.0L431.2,561.9L469.9,554.4L489.2,565.1L497.8,559.6L483.0,603.0L476.4,635.6L496.9,657.2L508.6,668.0L543.2,672.4L570.0,678.0L597.0,683.1L603.2,704.8L633.5,713.3L664.0,721.4L710.7,729.7L706.5,680.1L737.7,653.4L773.6,658.5L800.7,664.7L828.1,670.5L858.7,671.4L889.5,671.8L920.4,671.6L941.1,657.4L961.6,643.0L998.6,643.4L1035.2,625.8L1037.2,581.4L1039.2,546.0L1033.8,504.6L1026.7,478.4L1047.3,471.8L1067.9,464.8L1088.4,457.6L1108.9,450.1L1129.2,442.3L1149.4,434.2L1169.6,425.9L1189.6,417.3L1209.5,408.4L1229.3,399.3L1249.0,389.8L1268.6,380.1L1288.1,370.2L1307.4,359.9L1321.3,383.2L1335.2,406.5L1349.2,430.0L1363.3,453.6L1377.4,477.3L1391.6,501.1L1405.9,525.1L1420.2,549.1L1434.7,573.4L1449.2,597.8L1427.2,610.7L1404.9,623.4L1382.5,635.7L1359.9,647.8L1337.2,659.5L1314.3,671.0L1291.3,682.1L1268.1,692.9L1244.7,703.5L1221.3,713.7L1197.7,723.5L1173.9,733.1L1150.1,742.3L1126.1,751.3L1102.0,759.9L1077.8,768.1L1053.4,776.1L1029.0,783.7L1004.5,791.0L979.9,798.0L955.1,804.6L930.3,810.9L905.4,816.9L880.5,822.5L855.4,827.8L830.3,832.7L805.2,837.4L779.9,841.6L754.6,845.6L729.3,849.2L703.9,852.4L678.5,855.3L653.0,857.9L627.5,860.2L602.0,862.0L576.5,863.6L550.9,864.8L525.3,865.7L499.8,866.2L474.2,866.3L448.6,866.2L423.0,865.7L397.4,864.8L371.8,863.6L346.3,862.0L320.8,860.2L295.3,857.9L269.8,855.3L244.4,852.4L219.0,849.2L193.7,845.6L168.4,841.6L143.2,837.4L118.0,832.7L92.9,827.8L67.8,822.5L42.9,816.9L18.0,810.9L-6.8,804.6L-31.5,798.0L-56.1,791.0L-80.7,783.7L-72.4,756.6Z M211.7,187.7L237.4,187.5L250.4,182.0L267.0,183.6L283.7,184.9L303.6,186.6L323.5,187.9L332.8,179.7L333.6,173.2L320.6,171.6L326.7,161.8L341.7,145.0L342.3,139.8L322.4,132.1L322.2,121.5L317.4,110.2L312.7,98.9L305.5,84.6L301.1,73.2L300.5,57.2L294.9,45.6L289.1,44.6L284.7,35.8L302.1,20.0L307.4,4.7L288.3,-1.2L276.7,-0.7L288.4,-25.4L295.2,-24.2L281.6,-26.7L268.1,-29.4L257.7,-7.1L250.8,4.9L247.8,25.9L244.3,49.4L249.4,69.3L269.3,70.5L275.3,71.6L275.0,90.3L265.7,107.3L270.9,113.6L246.2,109.0L249.4,125.7L248.5,138.9L231.1,143.4L243.9,154.0L262.7,160.2L256.5,167.1L241.9,164.3L226.9,172.1Z M218.5,132.7L219.9,111.5L225.4,93.9L237.4,74.9L233.5,71.4L230.9,54.6L217.5,46.1L201.0,50.3L194.2,64.8L169.9,66.6L165.0,84.3L161.7,102.5L151.3,116.0L159.7,134.6L179.9,134.4L198.5,133.5L212.2,131.3Z M524.9,534.8L545.8,528.6L568.9,526.0L591.9,523.1L583.2,550.7L586.5,566.6L566.9,565.2Z M438.0,455.0L458.2,450.1L468.1,468.8L468.0,503.4L451.3,511.3L440.9,508.4L443.5,481.8Z M446.8,418.0L462.6,402.4L464.3,428.9L458.2,444.7L448.4,436.6Z M318.1,484.8L339.3,478.8L331.7,494.2L317.8,487.4Z M770.2,576.0L801.1,572.8L831.9,569.1L801.1,583.9L771.2,581.4Z M489.1,70.7L512.9,70.2L511.0,57.0L491.9,60.1Z M101.9,-280.7L117.4,-286.9L132.7,-293.4L142.3,-287.9L151.9,-282.5L161.7,-277.2L171.6,-272.0L181.5,-267.0L189.7,-257.1L198.1,-247.3L206.7,-237.6L191.6,-211.1L175.7,-207.1L159.5,-203.4L143.1,-200.1L132.9,-207.1L122.9,-214.2L112.9,-221.5L103.1,-228.9L102.2,-254.8Z"/><path class="cm-sea2" d="M1082.2,311.5L1060.1,335.7L1041.6,343.5L1022.9,351.0L1000.9,349.5L979.0,347.7L957.8,346.9L929.7,356.4L914.1,372.5L898.2,388.5L879.0,394.0L859.7,399.3L831.9,395.5L822.4,373.3L827.2,344.8L826.8,320.4L835.8,296.1L845.1,260.8L862.7,250.1L896.9,255.9L904.5,267.3L884.2,276.6L909.2,293.5L933.3,277.0L955.2,255.1L977.3,260.8L999.6,266.2L983.4,261.2L1026.3,280.9L1053.9,296.5Z"/><path class="cm-grat" d="M42.0,531.0L45.7,517.7L49.4,504.4L53.0,491.1L56.7,477.8L60.3,464.5L64.0,451.3L67.6,438.1L71.2,424.9L74.9,411.8L78.5,398.6L82.1,385.5L85.7,372.4L89.3,359.3L92.9,346.2L96.5,333.2L100.1,320.1L103.7,307.1L107.3,294.0L110.9,281.0L114.5,268.0L118.0,255.0L121.6,242.0L125.2,229.0L128.8,216.0L132.3,203.1L135.9,190.1L139.5,177.1L143.1,164.1L146.6,151.1L150.2,138.2L153.8,125.2L157.4,112.2L160.9,99.2L164.5,86.2L168.1,73.2L171.7,60.2L175.3,47.2L178.9,34.2L182.4,21.2L186.0,8.1 M256.1,574.8L258.0,561.1L259.8,547.4L261.7,533.7L263.5,520.1L265.4,506.5L267.2,492.9L269.0,479.3L270.9,465.7L272.7,452.2L274.5,438.7L276.3,425.2L278.2,411.7L280.0,398.3L281.8,384.8L283.6,371.4L285.4,358.0L287.2,344.6L289.1,331.2L290.9,317.8L292.7,304.4L294.5,291.1L296.3,277.7L298.1,264.4L299.9,251.0L301.7,237.7L303.5,224.3L305.3,211.0L307.1,197.6L308.9,184.3L310.7,171.0L312.5,157.6L314.3,144.3L316.1,130.9L317.9,117.6L319.7,104.2L321.5,90.9L323.4,77.5L325.2,64.1L327.0,50.7L328.8,37.3 M474.2,589.4L474.2,575.6L474.2,561.8L474.2,548.0L474.2,534.2L474.2,520.5L474.2,506.8L474.2,493.1L474.2,479.4L474.2,465.8L474.2,452.1L474.2,438.5L474.2,424.9L474.2,411.3L474.2,397.8L474.2,384.2L474.2,370.7L474.2,357.2L474.2,343.6L474.2,330.1L474.2,316.6L474.2,303.2L474.2,289.7L474.2,276.2L474.2,262.7L474.2,249.3L474.2,235.8L474.2,222.3L474.2,208.9L474.2,195.4L474.2,182.0L474.2,168.5L474.2,155.0L474.2,141.6L474.2,128.1L474.2,114.6L474.2,101.1L474.2,87.6L474.2,74.1L474.2,60.6L474.2,47.1 M692.2,574.8L690.4,561.1L688.5,547.4L686.7,533.7L684.8,520.1L683.0,506.5L681.1,492.9L679.3,479.3L677.5,465.7L675.6,452.2L673.8,438.7L672.0,425.2L670.2,411.7L668.3,398.3L666.5,384.8L664.7,371.4L662.9,358.0L661.1,344.6L659.3,331.2L657.5,317.8L655.7,304.4L653.8,291.1L652.0,277.7L650.2,264.4L648.4,251.0L646.6,237.7L644.8,224.3L643.0,211.0L641.2,197.6L639.4,184.3L637.6,171.0L635.8,157.6L634.0,144.3L632.2,130.9L630.4,117.6L628.6,104.2L626.8,90.9L625.0,77.5L623.2,64.1L621.3,50.7L619.5,37.3 M906.3,531.0L902.6,517.7L899.0,504.4L895.3,491.1L891.7,477.8L888.0,464.5L884.4,451.3L880.7,438.1L877.1,424.9L873.5,411.8L869.9,398.6L866.2,385.5L862.6,372.4L859.0,359.3L855.4,346.2L851.8,333.2L848.2,320.1L844.6,307.1L841.0,294.0L837.5,281.0L833.9,268.0L830.3,255.0L826.7,242.0L823.1,229.0L819.6,216.0L816.0,203.1L812.4,190.1L808.8,177.1L805.3,164.1L801.7,151.1L798.1,138.2L794.5,125.2L791.0,112.2L787.4,99.2L783.8,86.2L780.2,73.2L776.6,60.2L773.1,47.2L769.5,34.2L765.9,21.2L762.3,8.1 M31.3,416.1L43.3,419.8L55.4,423.3L67.6,426.7L79.7,430.0L91.9,433.2L104.1,436.4L116.3,439.4L128.6,442.3L140.9,445.1L153.2,447.8L165.5,450.4L177.8,452.9L190.2,455.3L202.6,457.6L215.0,459.8L227.4,461.9L239.8,463.9L252.3,465.8L264.8,467.6L277.3,469.3L289.8,470.9L302.3,472.3L314.8,473.7L327.3,475.0L339.9,476.1L352.4,477.2L365.0,478.2L377.5,479.0L390.1,479.8L402.7,480.4L415.3,480.9L427.9,481.4L440.5,481.7L453.1,481.9L465.7,482.1L478.3,482.1L490.8,482.0L503.4,481.8L516.0,481.5L528.6,481.1L541.2,480.6L553.8,480.0L566.4,479.3L578.9,478.5L591.5,477.6L604.1,476.5L616.6,475.4L629.1,474.2L641.7,472.8L654.2,471.4L666.7,469.8L679.2,468.2L691.6,466.5L704.1,464.6L716.6,462.6L729.0,460.6L741.4,458.4L753.8,456.1L766.2,453.8L778.5,451.3 M108.2,163.6L118.2,166.6L128.2,169.5L138.2,172.3L148.2,175.1L158.3,177.7L168.4,180.3L178.5,182.8L188.6,185.2L198.8,187.5L208.9,189.8L219.1,191.9L229.3,194.0L239.5,196.0L249.8,197.9L260.0,199.7L270.3,201.4L280.5,203.1L290.8,204.6L301.1,206.1L311.5,207.5L321.8,208.8L332.1,210.0L342.5,211.2L352.8,212.2L363.2,213.2L373.6,214.0L383.9,214.8L394.3,215.5L404.7,216.2L415.1,216.7L425.5,217.1L435.9,217.5L446.3,217.8L456.7,218.0L467.1,218.1L477.5,218.1L487.9,218.0L498.4,217.8L508.8,217.6L519.2,217.3L529.6,216.9L540.0,216.4L550.4,215.8L560.7,215.1L571.1,214.3L581.5,213.5L591.9,212.6L602.2,211.5L612.6,210.4L622.9,209.2L633.2,208.0L643.6,206.6L653.9,205.2L664.2,203.6L674.4,202.0L684.7,200.3L695.0,198.5L705.2,196.6L715.4,194.7L725.6,192.6 M185.1,-88.8L193.0,-86.5L200.9,-84.2L208.8,-81.9L216.7,-79.8L224.7,-77.7L232.6,-75.6L240.6,-73.7L248.6,-71.8L256.6,-69.9L264.6,-68.2L272.7,-66.5L280.7,-64.8L288.8,-63.2L296.9,-61.7L305.0,-60.3L313.1,-58.9L321.2,-57.6L329.4,-56.4L337.5,-55.2L345.6,-54.1L353.8,-53.1L362.0,-52.1L370.1,-51.3L378.3,-50.4L386.5,-49.7L394.7,-49.0L402.9,-48.3L411.1,-47.8L419.3,-47.3L427.5,-46.9L435.7,-46.5L443.9,-46.2L452.2,-46.0L460.4,-45.9L468.6,-45.8L476.8,-45.8L485.1,-45.8L493.3,-46.0L501.5,-46.2L509.7,-46.4L517.9,-46.7L526.1,-47.1L534.3,-47.6L542.6,-48.1L550.8,-48.7L558.9,-49.4L567.1,-50.1L575.3,-51.0L583.5,-51.8L591.7,-52.8L599.8,-53.8L608.0,-54.8L616.1,-56.0L624.2,-57.2L632.4,-58.5L640.5,-59.8L648.6,-61.2L656.7,-62.7L664.7,-64.3L672.8,-65.9"/><g clip-path="url(#cmland)"><path class="cm-borders" d="M105.3,385.3L119.6,382.7L137.8,391.2L147.3,402.9L154.8,405.9L137.9,417.1L135.7,435.7L128.1,450.4L119.0,462.0L122.7,473.8L112.9,488.0L103.5,513.4L104.4,514.5 M248.6,374.7L256.7,383.2L267.4,390.2L280.5,394.7L294.0,396.4L307.2,400.7L312.4,406.6L327.5,412.2L340.8,411.4 M351.5,183.3L361.3,193.2L367.2,203.0L376.9,207.7L386.4,216.3L395.8,227.5L402.6,229.2L412.7,231.0L422.7,238.1L432.9,242.4L443.1,244.8L435.9,256.9L431.6,280.4 M431.6,280.4L419.0,286.6L408.9,309.8L403.1,316.1L415.6,323.3 M415.6,323.3L419.6,337.9L412.7,348.2L417.6,364.3L426.5,380.5 M415.6,323.3L435.7,325.3L446.9,312.4L455.9,323.1L461.5,310.0L481.4,308.7L482.3,300.8 M431.6,280.4L449.4,279.6L467.1,282.4L465.2,295.6L482.3,300.8 M482.3,300.8L501.1,296.6L513.5,293.7L526.6,306.4L541.2,308.4 M541.2,308.4L540.2,326.9L542.3,332.1 M467.1,282.4L477.7,289.0L490.1,283.7L509.6,280.7L527.5,284.0L526.9,269.6L540.0,249.2 M540.0,249.2L516.8,230.5L509.4,209.7L524.3,203.9L545.3,192.4L555.3,191.8 M555.3,191.8L550.1,163.2L539.1,140.1L539.2,113.8 M555.3,191.8L570.5,195.9L585.2,210.5L603.1,203.5L625.6,222.1 M540.0,249.2L560.3,242.8L593.9,249.3L596.7,242.4 M596.7,242.4L610.6,226.5L625.6,222.1 M541.2,308.4L557.6,310.1L575.2,302.3L584.3,302.9L589.0,273.5L598.8,264.7L593.9,249.3 M598.8,264.7L628.9,264.1L653.3,247.7L684.3,243.0 M584.3,302.9L611.3,317.6L636.9,316.1L643.2,307.4L661.6,307.6L678.9,299.8L686.4,266.6L699.9,251.0 M625.6,222.1L647.9,221.9L688.1,223.7 M425.5,130.4L429.3,154.2L420.7,167.0L409.2,169.1L408.4,184.8L406.2,195.2 M365.9,179.1L379.2,177.6L392.3,178.6L400.3,181.7L402.8,195.0L406.2,195.2 M406.2,195.2L413.8,208.7L408.2,219.0L402.6,229.2 M454.5,89.1L465.8,91.9L474.2,94.6 M198.7,66.0L209.9,78.2L219.1,83.0L224.4,84.2 M278.5,70.8L286.6,68.2L292.5,59.9L296.3,51.1 M542.3,332.1L557.2,333.9L572.0,332.9L578.6,323.2L584.8,308.2 M578.6,323.2L585.5,339.8L610.6,348.2L628.3,338.3L641.9,342.1L647.5,341.4L643.8,357.8L636.8,379.9L621.3,397.5L638.9,406.3"/></g></g><path class="cm-frame" d="M0.0,518.8L7.7,521.2L15.5,523.5L23.3,525.7L31.1,528.0L38.8,530.1L46.6,532.3L54.5,534.4L62.3,536.5L70.1,538.5L78.0,540.5L85.8,542.4L93.7,544.3L101.6,546.2L109.4,548.0L117.3,549.8L125.2,551.6L133.1,553.3L141.0,555.0L149.0,556.6L156.9,558.2L164.8,559.8L172.8,561.3L180.7,562.8L188.7,564.2L196.7,565.6L204.7,567.0L212.6,568.3L220.6,569.6L228.6,570.8L236.6,572.0L244.6,573.2L252.7,574.3L260.7,575.4L268.7,576.4L276.7,577.4L284.8,578.4L292.8,579.3L300.8,580.2L308.9,581.0L316.9,581.8L325.0,582.6L333.1,583.3L341.1,584.0L349.2,584.6L357.3,585.2L365.3,585.8L373.4,586.3L381.5,586.8L389.6,587.2L397.6,587.6L405.7,588.0L413.8,588.3L421.9,588.6L430.0,588.9L438.1,589.0L446.2,589.2L454.3,589.3L462.4,589.4L470.4,589.4L478.5,589.4L486.6,589.4L494.7,589.3L502.8,589.2L510.9,589.0L519.0,588.8L527.1,588.6L535.2,588.3L543.3,588.0L551.3,587.6L559.4,587.2L567.5,586.8L575.6,586.3L583.7,585.8L591.7,585.2L599.8,584.6L607.9,583.9L615.9,583.3L624.0,582.5L632.0,581.8L640.1,581.0L648.1,580.1L656.2,579.2L664.2,578.3L672.3,577.3L680.3,576.3L688.3,575.3L696.3,574.2L704.3,573.1L712.3,571.9L720.3,570.7L728.3,569.5L736.3,568.2L744.3,566.9L752.3,565.5L760.3,564.1L768.2,562.7L776.2,561.2L784.1,559.7L792.1,558.1L800.0,556.5L800.0,556.5L798.9,551.1L797.8,545.6L796.7,540.2L795.6,534.8L794.5,529.4L793.4,524.0L792.3,518.6L791.2,513.2L790.0,507.8L788.9,502.4L787.8,497.0L786.7,491.6L785.6,486.3L784.5,480.9L783.4,475.5L782.4,470.1L781.3,464.8L780.2,459.4L779.1,454.1L778.0,448.7L776.9,443.3L775.8,438.0L774.7,432.6L773.6,427.3L772.5,422.0L771.4,416.6L770.3,411.3L769.2,406.0L768.1,400.6L767.1,395.3L766.0,390.0L764.9,384.7L763.8,379.3L762.7,374.0L761.6,368.7L760.5,363.4L759.5,358.1L758.4,352.8L757.3,347.5L756.2,342.2L755.1,336.9L754.0,331.6L752.9,326.3L751.9,321.0L750.8,315.7L749.7,310.4L748.6,305.1L747.5,299.8L746.5,294.5L745.4,289.2L744.3,283.9L743.2,278.6L742.1,273.4L741.1,268.1L740.0,262.8L738.9,257.5L737.8,252.2L736.7,247.0L735.7,241.7L734.6,236.4L733.5,231.1L732.4,225.8L731.3,220.6L730.3,215.3L729.2,210.0L728.1,204.7L727.0,199.5L726.0,194.2L724.9,188.9L723.8,183.6L722.7,178.4L721.6,173.1L720.6,167.8L719.5,162.5L718.4,157.3L717.3,152.0L716.3,146.7L715.2,141.4L714.1,136.2L713.0,130.9L711.9,125.6L710.9,120.3L709.8,115.1L708.7,109.8L707.6,104.5L706.5,99.2L705.5,93.9L704.4,88.6L703.3,83.4L702.2,78.1L701.1,72.8L700.1,67.5L699.0,62.2L697.9,56.9L696.8,51.6L695.7,46.3L694.7,41.0L693.6,35.7L692.5,30.4L691.4,25.1L691.4,25.1L686.1,26.2L680.8,27.2L675.5,28.2L670.2,29.2L664.9,30.2L659.6,31.1L654.3,32.0L649.0,32.9L643.6,33.8L638.3,34.6L633.0,35.4L627.6,36.2L622.3,36.9L616.9,37.6L611.6,38.3L606.2,39.0L600.9,39.7L595.5,40.3L590.2,40.9L584.8,41.4L579.4,42.0L574.0,42.5L568.7,43.0L563.3,43.4L557.9,43.8L552.5,44.2L547.2,44.6L541.8,45.0L536.4,45.3L531.0,45.6L525.6,45.9L520.2,46.1L514.8,46.3L509.4,46.5L504.1,46.7L498.7,46.8L493.3,46.9L487.9,47.0L482.5,47.0L477.1,47.1L471.7,47.1L466.3,47.0L460.9,47.0L455.5,46.9L450.1,46.8L444.7,46.7L439.3,46.5L433.9,46.3L428.5,46.1L423.1,45.9L417.8,45.6L412.4,45.3L407.0,45.0L401.6,44.6L396.2,44.3L390.8,43.9L385.5,43.4L380.1,43.0L374.7,42.5L369.3,42.0L364.0,41.5L358.6,40.9L353.2,40.3L347.9,39.7L342.5,39.1L337.2,38.4L331.8,37.7L326.5,37.0L321.1,36.2L315.8,35.5L310.5,34.7L305.1,33.8L299.8,33.0L294.5,32.1L289.2,31.2L283.9,30.3L278.5,29.3L273.2,28.3L267.9,27.3L262.6,26.3L257.4,25.2L252.1,24.1L246.8,23.0L241.5,21.8L236.3,20.7L231.0,19.5L225.7,18.3L220.5,17.0L215.3,15.7L210.0,14.4L204.8,13.1L199.6,11.8L194.3,10.4L189.1,9.0L183.9,7.5L178.7,6.1L173.6,4.6L168.4,3.1L163.2,1.6L158.0,0.0L158.0,0.0L156.5,5.2L154.9,10.4L153.3,15.5L151.7,20.7L150.2,25.9L148.6,31.0L147.0,36.2L145.4,41.4L143.9,46.5L142.3,51.7L140.7,56.9L139.1,62.0L137.6,67.2L136.0,72.4L134.4,77.5L132.9,82.7L131.3,87.8L129.7,93.0L128.1,98.1L126.6,103.3L125.0,108.4L123.4,113.6L121.9,118.7L120.3,123.9L118.7,129.0L117.2,134.2L115.6,139.3L114.0,144.5L112.5,149.6L110.9,154.8L109.3,159.9L107.8,165.1L106.2,170.2L104.6,175.4L103.0,180.5L101.5,185.7L99.9,190.8L98.3,196.0L96.8,201.1L95.2,206.3L93.6,211.5L92.1,216.6L90.5,221.8L88.9,226.9L87.3,232.1L85.8,237.2L84.2,242.4L82.6,247.5L81.1,252.7L79.5,257.9L77.9,263.0L76.3,268.2L74.8,273.4L73.2,278.5L71.6,283.7L70.0,288.9L68.5,294.0L66.9,299.2L65.3,304.4L63.7,309.6L62.2,314.7L60.6,319.9L59.0,325.1L57.4,330.3L55.8,335.5L54.3,340.7L52.7,345.9L51.1,351.1L49.5,356.3L47.9,361.5L46.4,366.7L44.8,371.9L43.2,377.1L41.6,382.3L40.0,387.5L38.4,392.7L36.8,397.9L35.2,403.1L33.7,408.4L32.1,413.6L30.5,418.8L28.9,424.0L27.3,429.3L25.7,434.5L24.1,439.8L22.5,445.0L20.9,450.3L19.3,455.5L17.7,460.8L16.1,466.0L14.5,471.3L12.9,476.6L11.3,481.8L9.7,487.1L8.1,492.4L6.4,497.7L4.8,503.0L3.2,508.2L1.6,513.5L0.0,518.8Z"/><g class="cm-marker cm-t1" data-city="prague" role="button" tabindex="0" aria-pressed="false" aria-label="Prague, weekend total $113–131 (€101–117)"><circle class="cm-hit" cx="548.9" cy="213.9" r="24"/><circle class="cm-dot" cx="548.9" cy="213.9" r="9"/><text class="cm-lbl" x="560.9" y="218.9" text-anchor="start">Prague</text></g><g class="cm-marker cm-t1" data-city="budapest" role="button" tabindex="0" aria-pressed="false" aria-label="Budapest, weekend total $124–133 (€111–119)"><circle class="cm-hit" cx="634.3" cy="274.1" r="24"/><circle class="cm-dot" cx="634.3" cy="274.1" r="9"/><text class="cm-lbl" x="646.3" y="279.1" text-anchor="start">Budapest</text></g><g class="cm-marker cm-t2" data-city="lisbon" role="button" tabindex="0" aria-pressed="false" aria-label="Lisbon, weekend total $158–174 (€141–155)"><circle class="cm-hit" cx="78.8" cy="465.1" r="24"/><circle class="cm-dot" cx="78.8" cy="465.1" r="9"/><text class="cm-lbl" x="90.8" y="470.1" text-anchor="start">Lisbon</text></g><g class="cm-marker cm-t2" data-city="berlin" role="button" tabindex="0" aria-pressed="false" aria-label="Berlin, weekend total $175–191 (€156–170)"><circle class="cm-hit" cx="528.6" cy="150.7" r="24"/><circle class="cm-dot" cx="528.6" cy="150.7" r="9"/><text class="cm-lbl" x="540.6" y="155.7" text-anchor="start">Berlin</text></g><g class="cm-marker cm-t2" data-city="barcelona" role="button" tabindex="0" aria-pressed="false" aria-label="Barcelona, weekend total $179–196 (€159–174)"><circle class="cm-hit" cx="318.5" cy="437.0" r="24"/><circle class="cm-dot" cx="318.5" cy="437.0" r="9"/><text class="cm-lbl" x="330.5" y="442.0" text-anchor="start">Barcelona</text></g><g class="cm-marker cm-t2" data-city="rome" role="button" tabindex="0" aria-pressed="false" aria-label="Rome, weekend total $176–195 (€157–175)"><circle class="cm-hit" cx="523.5" cy="430.7" r="24"/><circle class="cm-dot" cx="523.5" cy="430.7" r="9"/><text class="cm-lbl" x="535.5" y="435.7" text-anchor="start">Rome</text></g><g class="cm-marker cm-t3" data-city="paris" role="button" tabindex="0" aria-pressed="false" aria-label="Paris, weekend total $200–229 (€178–204)"><circle class="cm-hit" cx="342.2" cy="241.3" r="24"/><circle class="cm-dot" cx="342.2" cy="241.3" r="9"/><text class="cm-lbl" x="330.2" y="246.3" text-anchor="end">Paris</text></g><g class="cm-marker cm-t3" data-city="dublin" role="button" tabindex="0" aria-pressed="false" aria-label="Dublin, weekend total $205–216 (€183–193)"><circle class="cm-hit" cx="221.0" cy="102.3" r="24"/><circle class="cm-dot" cx="221.0" cy="102.3" r="9"/><text class="cm-lbl" x="209.0" y="107.3" text-anchor="end">Dublin</text></g><g class="cm-marker cm-t3" data-city="amsterdam" role="button" tabindex="0" aria-pressed="false" aria-label="Amsterdam, weekend total $210–230 (€186–205)"><circle class="cm-hit" cx="392.5" cy="153.1" r="24"/><circle class="cm-dot" cx="392.5" cy="153.1" r="9"/><text class="cm-lbl" x="392.5" y="136.1" text-anchor="middle">Amsterdam</text></g><g class="cm-marker cm-t4" data-city="london" role="button" tabindex="0" aria-pressed="false" aria-label="London, weekend total $245–265 (€218–236)"><circle class="cm-hit" cx="309.1" cy="167.3" r="24"/><circle class="cm-dot" cx="309.1" cy="167.3" r="9"/><text class="cm-lbl" x="297.1" y="172.3" text-anchor="end">London</text></g></svg>
+        <div class="cm-pop" id="cm-pop" role="dialog" aria-modal="false" aria-label="City cost details" hidden>
+          <button type="button" class="cm-close" id="cm-close" aria-label="Close city details">&times;</button>
+          <div class="cm-card" id="cm-card"></div>
+        </div>
+        <ul class="cm-legend" aria-label="Map colors, by weekend total">
+          <li><span class="cm-key cm-t1"></span>Under $150 (€134)</li>
+          <li><span class="cm-key cm-t2"></span>$150–199 (€134–177)</li>
+          <li><span class="cm-key cm-t3"></span>$200–239 (€178–213)</li>
+          <li><span class="cm-key cm-t4"></span>$240 and up (€214+)</li>
+        </ul>
+        <p class="cm-caption">Hover over a city (or tap it on a phone) for its weekend budget, and click to keep the box open. Simplified illustration with approximate borders, not to scale. Colors show the middle of each city's range.</p>
+      </div>
+      <div class="cm-backdrop" id="cm-backdrop" hidden></div>
+    </div>
+
+    <h2 class="cm-h2">All 10 cities, cheapest first</h2>
+    <div class="cm-tablewrap">
+      <table class="cm-table">
+        <thead><tr><th scope="col">City</th><th scope="col">2-night stay</th><th scope="col">Weekend total</th></tr></thead>
+        <tbody id="cm-rows"></tbody>
+      </table>
+    </div>
+
+    <details class="cm-how">
+      <summary>How these estimates work</summary>
+      <div class="cm-how-body">
+        <p><strong>Stay:</strong> two nights in a shared hostel dorm bed. The low and high ends are the cheaper and pricier quarters of the dorm prices listed on Hostelworld for that city. These are starting prices, so Friday and Saturday nights can cost more.</p>
+        <p><strong>Food:</strong> three days of two meals at an inexpensive restaurant plus one coffee a day, from Numbeo's crowd-sourced prices.</p>
+        <p><strong>Local transit:</strong> six one-way rides on public transport (Numbeo).</p>
+        <p><strong>Currency:</strong> euros and dollars are converted at the European Central Bank rate from October 20, 2026 (€1 = $1.1215).</p>
+        <p><strong>Sights:</strong> one headline attraction per city, from its official website. Prices change, so check before you go.</p>
+        <p class="cm-sources">Sources: <a href="https://www.hostelworld.com/" target="_blank" rel="noopener">Hostelworld</a>, <a href="https://www.numbeo.com/cost-of-living/" target="_blank" rel="noopener">Numbeo</a>, <a href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html" target="_blank" rel="noopener">European Central Bank</a>, and each attraction's official site.</p>
+      </div>
+    </details>
+    <p class="cm-updated mono">Last updated October 21, 2026</p>
+  </section>
+
+  <div class="tear"></div>
+
+  <section style="padding-block:16px 56px;">
+    <div class="news">
+      <span class="eyebrow mono" style="color:var(--orange)">Stay in the loop</span>
+      <h2>Get new city budgets as they drop</h2>
+      <div class="ml-slot"></div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:24px;width:100%;">
+    <div class="fcol">
+      <strong class="display" style="font-size:1rem;color:var(--ink);">Pennies Abroad</strong>
+      <span>Budget-first study abroad, for students.</span>
+    </div>
+    <div class="fcol">
+      <span>Site map</span>
+      <a href="#map" data-page="map">Cost map</a>
+      <a href="#blog" data-page="blog">Blog</a>
+      <a href="#traveltips" data-page="traveltips">Travel tips</a>
+      <a href="#about" data-page="about">About me</a>
+      <a href="#resources" data-page="resources">Budget resources</a>
+    </div>
+    <div class="fcol">
+      <span>Say hello</span>
+      <a href="#newsletter">Join the newsletter</a>
+      <span>@penniesabroad — add your handles here</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var CITIES = [{"id": "prague", "name": "Prague", "country": "Czechia", "stayUsd": [27, 45], "stayEur": [24, 40], "nightUsd": [13, 22], "nightEur": [12, 20], "foodUsd": 75, "foodEur": 67, "transitUsd": 11, "transitEur": 10, "totUsd": [113, 131], "totEur": [101, 117], "mid": 125, "tier": 1, "hostels": 25, "sight": ["Prague Castle, Main circuit", "$21 (€18)", "Based on the castle's 2024 price list, so confirm before you go."]}, {"id": "budapest", "name": "Budapest", "country": "Hungary", "stayUsd": [22, 31], "stayEur": [20, 28], "nightUsd": [11, 16], "nightEur": [10, 14], "foodUsd": 93, "foodEur": 83, "transitUsd": 9, "transitEur": 8, "totUsd": [124, 133], "totEur": [111, 119], "mid": 128, "tier": 1, "hostels": 25, "sight": ["Széchenyi Thermal Bath", "$41–46 (€36–41)", "Weekday vs. Friday and weekend entry (13,200–14,800 HUF)."]}, {"id": "lisbon", "name": "Lisbon", "country": "Portugal", "stayUsd": [34, 50], "stayEur": [30, 44], "nightUsd": [17, 25], "nightEur": [15, 22], "foodUsd": 110, "foodEur": 98, "transitUsd": 14, "transitEur": 13, "totUsd": [158, 174], "totEur": [141, 155], "mid": 164, "tier": 2, "hostels": 28, "sight": ["São Jorge Castle", "$19 (€17)", "Ages 13–25 pay about $9.50 (€8.50) with proof of age."]}, {"id": "berlin", "name": "Berlin", "country": "Germany", "stayUsd": [34, 50], "stayEur": [30, 44], "nightUsd": [17, 25], "nightEur": [15, 22], "foodUsd": 114, "foodEur": 102, "transitUsd": 27, "transitEur": 24, "totUsd": [175, 191], "totEur": [156, 170], "mid": 183, "tier": 2, "hostels": 28, "sight": ["Museum Island ticket", "$27 (€24)", "Based on the museums' 2024 prices, so confirm before you go. Free for visitors 18 and under."]}, {"id": "barcelona", "name": "Barcelona", "country": "Spain", "stayUsd": [44, 61], "stayEur": [39, 54], "nightUsd": [22, 30], "nightEur": [20, 27], "foodUsd": 117, "foodEur": 104, "transitUsd": 18, "transitEur": 16, "totUsd": [179, 196], "totEur": [159, 174], "mid": 185, "tier": 2, "hostels": 26, "sight": ["Sagrada Família", "$27 (€24) with a student card", "Standard ticket is $29 (€26)."]}, {"id": "rome", "name": "Rome", "country": "Italy", "stayUsd": [59, 78], "stayEur": [52, 70], "nightUsd": [29, 39], "nightEur": [26, 35], "foodUsd": 107, "foodEur": 96, "transitUsd": 10, "transitEur": 9, "totUsd": [176, 195], "totEur": [157, 175], "mid": 185, "tier": 2, "hostels": 28, "sight": ["Colosseum, Roman Forum and Palatine", "$20 (€18)", "EU citizens aged 18–25 pay about €2."]}, {"id": "paris", "name": "Paris", "country": "France", "stayUsd": [53, 82], "stayEur": [47, 73], "nightUsd": [26, 41], "nightEur": [24, 36], "foodUsd": 130, "foodEur": 116, "transitUsd": 17, "transitEur": 15, "totUsd": [200, 229], "totEur": [178, 204], "mid": 209, "tier": 3, "hostels": 29, "sight": ["Louvre Museum", "$36 (€32) for non-EU visitors", "Free for visitors under 26 who live in the EU or EEA."]}, {"id": "dublin", "name": "Dublin", "country": "Ireland", "stayUsd": [36, 47], "stayEur": [32, 42], "nightUsd": [18, 23], "nightEur": [16, 21], "foodUsd": 156, "foodEur": 139, "transitUsd": 13, "transitEur": 12, "totUsd": [205, 216], "totEur": [183, 193], "mid": 213, "tier": 3, "hostels": 13, "sight": ["Guinness Storehouse", "$20 (€18) with a student ID", "Adult tickets start at $16 (€14)."]}, {"id": "amsterdam", "name": "Amsterdam", "country": "Netherlands", "stayUsd": [39, 59], "stayEur": [34, 53], "nightUsd": [19, 30], "nightEur": [17, 26], "foodUsd": 148, "foodEur": 132, "transitUsd": 23, "transitEur": 20, "totUsd": [210, 230], "totEur": [186, 205], "mid": 216, "tier": 3, "hostels": 28, "sight": ["Rijksmuseum", "$28 (€25)", "Free for visitors 18 and under."]}, {"id": "london", "name": "London", "country": "United Kingdom", "stayUsd": [44, 64], "stayEur": [39, 57], "nightUsd": [22, 32], "nightEur": [19, 29], "foodUsd": 177, "foodEur": 158, "transitUsd": 24, "transitEur": 21, "totUsd": [245, 265], "totEur": [218, 236], "mid": 255, "tier": 4, "hostels": 28, "sight": ["Tower of London", "$51 (€45)", "Adult ticket is £38."]}];
+    var TIERS = ['', 'Under $150 (€134)', '$150–199 (€134–177)', '$200–239 (€178–213)', '$240 and up (€214+)'];
+    function rng(a, sym){ return sym + a[0] + '–' + a[1]; }
+    function one(v, sym){ return sym + v; }
+    var fig = document.getElementById('cm-figure');
+    var pop = document.getElementById('cm-pop');
+    var card = document.getElementById('cm-card');
+    var closeBtn = document.getElementById('cm-close');
+    var backdrop = document.getElementById('cm-backdrop');
+    var rows = document.getElementById('cm-rows');
+    if(!fig || !pop || !card || !rows) return;
+    var svg = fig.querySelector('.cm-svg');
+    var byId = {};
+    CITIES.forEach(function(c){ byId[c.id] = c; });
+    var openId = null, opener = null, pinned = false, leaveT = null;
+    var mq = window.matchMedia('(max-width: 700px)');
+    var hoverMq = window.matchMedia('(hover: hover) and (pointer: fine)');
+    var lastPtr = hoverMq.matches ? 'mouse' : 'touch';
+    function canHover(){ return lastPtr !== 'touch'; }
+    function useSheet(){ return mq.matches && lastPtr === 'touch'; }
+    document.addEventListener('pointerdown', function(e){ lastPtr = e.pointerType || 'mouse'; }, true);
+
+    function esc(s){ return String(s).replace(/[&<>"]/g, function(m){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]; }); }
+
+    function fill(c){
+      card.innerHTML =
+        '<span class="cm-chip cm-t' + c.tier + '">' + TIERS[c.tier] + '</span>' +
+        '<h3>' + esc(c.name) + '</h3>' +
+        '<p class="cm-country">' + esc(c.country) + '</p>' +
+        '<p class="cm-big">' + rng(c.totUsd, '$') + '<span> (' + rng(c.totEur, '€') + ')</span></p>' +
+        '<p class="cm-sub">for a 2-night weekend, per person, <strong>not including flights</strong></p>' +
+        '<dl class="cm-break">' +
+          '<div><dt>Stay<small>2 nights in a hostel dorm (about ' + rng(c.nightUsd, '$') + ' a night)</small></dt><dd>' + rng(c.stayUsd, '$') + '<span> (' + rng(c.stayEur, '€') + ')</span></dd></div>' +
+          '<div><dt>Food<small>2 meals and a coffee a day, 3 days</small></dt><dd>' + one(c.foodUsd, '$') + '<span> (' + one(c.foodEur, '€') + ')</span></dd></div>' +
+          '<div><dt>Local transit<small>6 one-way rides</small></dt><dd>' + one(c.transitUsd, '$') + '<span> (' + one(c.transitEur, '€') + ')</span></dd></div>' +
+        '</dl>' +
+        '<div class="cm-sight"><span class="cm-sight-label">One sight to know</span><strong>' + esc(c.sight[0]) + '</strong><span class="cm-sight-price">' + esc(c.sight[1]) + '</span><small>' + esc(c.sight[2]) + '</small></div>' +
+        '<p class="cm-foot">Starting estimates from ' + c.hostels + ' hostels. Weekend nights can cost more.</p>';
+      pop.setAttribute('aria-label', c.name + ' weekend cost details');
+    }
+
+    function mark(id){
+      document.querySelectorAll('.cm-marker').forEach(function(g){
+        var on = g.getAttribute('data-city') === id;
+        g.classList.toggle('is-active', on);
+        g.setAttribute('aria-expanded', on ? 'true' : 'false');
+      });
+      rows.querySelectorAll('tr').forEach(function(tr){
+        tr.classList.toggle('is-active', tr.getAttribute('data-city') === id);
+      });
+    }
+
+    function place(){
+      if(!openId) return;
+      if(useSheet()){ pop.style.left = ''; pop.style.top = ''; return; }
+      var dot = fig.querySelector('.cm-marker[data-city="' + openId + '"] .cm-dot');
+      if(!dot) return;
+      var fr = fig.getBoundingClientRect(), sr = svg.getBoundingClientRect(), dr = dot.getBoundingClientRect();
+      var mx = dr.left + dr.width / 2 - fr.left;
+      var my = dr.top + dr.height / 2 - fr.top;
+      var w = pop.offsetWidth, h = pop.offsetHeight;
+      var minTop = sr.top - fr.top + 8, maxBottom = sr.bottom - fr.top - 8;
+      var lbl = fig.querySelector('.cm-marker[data-city="' + openId + '"] .cm-lbl');
+      var rightX = mx + 24, leftX = mx - 24 - w;
+      if(lbl){
+        var lr = lbl.getBoundingClientRect(), cx = dr.left + dr.width / 2;
+        if(lr.left > cx){ rightX = Math.max(rightX, lr.right - fr.left + 12); }
+        else if(lr.right < cx){ leftX = Math.min(leftX, lr.left - fr.left - 12 - w); }
+      }
+      var left = rightX;
+      if(left + w > fr.width - 8){ left = leftX; }
+      if(left < 8){ left = Math.max(8, (fr.width - w) / 2); }
+      var top = my - h / 2;
+      if(top + h > maxBottom){ top = maxBottom - h; }
+      if(top < minTop){ top = minTop; }
+      pop.style.left = Math.round(left) + 'px';
+      pop.style.top = Math.round(top) + 'px';
+    }
+
+    function open(id, from, pin){
+      var c = byId[id]; if(!c) return;
+      clearTimeout(leaveT);
+      var wasHidden = pop.hidden;
+      openId = id; opener = from || null; pinned = !!pin;
+      fill(c);
+      var sheet = useSheet();
+      pop.classList.toggle('is-hover', !pinned);
+      pop.classList.toggle('is-sheet', sheet);
+      pop.hidden = false;
+      backdrop.hidden = !sheet;
+      mark(id);
+      place();
+      pop.scrollTop = 0;
+      if(pinned){
+        closeBtn.focus({preventScroll:true});
+        if(!sheet){ pop.scrollIntoView({block:'nearest', behavior:'smooth'}); }
+      }
+    }
+
+    function close(restore){
+      if(!openId) return;
+      openId = null; pinned = false;
+      clearTimeout(leaveT);
+      pop.classList.remove('is-hover');
+      pop.hidden = true;
+      backdrop.hidden = true;
+      mark(null);
+      if(restore && opener && document.body.contains(opener)){ opener.focus({preventScroll:true}); }
+      opener = null;
+    }
+
+    rows.innerHTML = CITIES.map(function(c){
+      return '<tr data-city="' + c.id + '"><th scope="row"><button type="button" class="cm-rowbtn" data-city="' + c.id + '" aria-haspopup="dialog"><span class="cm-key cm-t' + c.tier + '"></span>' + esc(c.name) + '<small>' + esc(c.country) + '</small></button></th>' +
+             '<td>' + rng(c.stayUsd, '$') + '<small>' + rng(c.stayEur, '€') + '</small></td>' +
+             '<td><strong>' + rng(c.totUsd, '$') + '</strong><small>' + rng(c.totEur, '€') + '</small></td></tr>';
+    }).join('');
+
+    document.querySelectorAll('.cm-marker').forEach(function(g){
+      g.setAttribute('aria-haspopup', 'dialog');
+      g.setAttribute('aria-expanded', 'false');
+      g.removeAttribute('aria-pressed');
+      function toggle(){
+        var id = g.getAttribute('data-city');
+        if(openId === id && pinned){ close(true); } else { open(id, g, true); }
+      }
+      g.addEventListener('click', toggle);
+      g.addEventListener('keydown', function(e){
+        if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); toggle(); }
+      });
+      g.addEventListener('pointerenter', function(e){
+        if(e.pointerType === 'touch') return;
+        lastPtr = e.pointerType || 'mouse';
+        clearTimeout(leaveT);
+        var id = g.getAttribute('data-city');
+        if(pinned && openId === id) return;
+        open(id, g, false);
+      });
+      g.addEventListener('pointerleave', function(e){
+        if(e.pointerType === 'touch' || pinned) return;
+        clearTimeout(leaveT);
+        leaveT = setTimeout(function(){ if(!pinned){ close(false); } }, 120);
+      });
+    });
+
+    rows.addEventListener('click', function(e){
+      var b = e.target.closest('.cm-rowbtn');
+      if(!b) return;
+      var id = b.getAttribute('data-city');
+      if(!useSheet()){ fig.scrollIntoView({behavior:'smooth', block:'center'}); }
+      open(id, b, true);
+    });
+
+    closeBtn.addEventListener('click', function(){ close(true); });
+    backdrop.addEventListener('click', function(){ close(true); });
+    document.addEventListener('keydown', function(e){ if(e.key === 'Escape'){ close(true); } });
+    document.addEventListener('click', function(e){
+      if(!openId) return;
+      if(pop.contains(e.target) || e.target.closest('.cm-marker') || e.target.closest('.cm-rowbtn')) return;
+      close(false);
+    });
+    window.addEventListener('resize', function(){
+      if(openId){ var sh = useSheet(); pop.classList.toggle('is-sheet', sh); backdrop.hidden = !sh; }
+      place();
+    });
+    // close the box when leaving the Cost map page
+    window.addEventListener('hashchange', function(){ close(false); });
+  })();
+</script>
+
+<script>
+  function ml_webform_success_47325599() {
+    var $ = ml_jQuery || jQuery;
+    $('.ml-subscribe-form-47325599 .row-success').show();
+    $('.ml-subscribe-form-47325599 .row-form').hide();
+  }
+</script>
+<script src="https://groot.mailerlite.com/js/w/webforms.min.js?v83147fa8ce2d95cb73ece7f28b469519" type="text/javascript"></script>
+<script>
+  fetch("https://assets.mailerlite.com/jsonp/2724841/forms/201761533561144657/takel").catch(function(){});
+</script>
+
+<script>
+  (function(){
+    var pages = ['home','map','blog','traveltips','about','resources'];
+
+    function showPage(id, toNews){
+      pages.forEach(function(p){
+        var el = document.getElementById('page-' + p);
+        if(el) el.hidden = (p !== id);
+      });
+      var embed = document.getElementById('ml-embed');
+      var slot = document.querySelector('#page-' + id + ' .ml-slot');
+      if(embed && slot && embed.parentNode !== slot){ slot.appendChild(embed); }
+      document.querySelectorAll('[data-page]').forEach(function(a){
+        var isActive = a.getAttribute('data-page') === id && a.classList.contains('navlinks-item-marker') === false && a.closest('.navlinks');
+        if(a.closest('.navlinks')){
+          if(a.getAttribute('data-page') === id){
+            a.classList.add('active');
+            a.setAttribute('aria-current','page');
+          } else {
+            a.classList.remove('active');
+            a.removeAttribute('aria-current');
+          }
+        }
+      });
+      var news = toNews ? document.querySelector('#page-' + id + ' .news') : null;
+      if(news){ news.scrollIntoView(); } else { window.scrollTo(0,0); }
+    }
+
+    function pageFromHash(){
+      var h = (location.hash || '#home').replace('#','');
+      return pages.indexOf(h) !== -1 ? h : 'home';
+    }
+
+    function isNewsHash(){ return location.hash === '#newsletter'; }
+
+    window.addEventListener('hashchange', function(){ showPage(pageFromHash(), isNewsHash()); });
+    showPage(pageFromHash(), isNewsHash());
+
+    // "Join the list" links: go to the Home signup box, even if already on #newsletter
+    document.querySelectorAll('a[href="#newsletter"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        if(isNewsHash()){ e.preventDefault(); showPage('home', true); }
+      });
+    });
+
+    // ---- free downloadable resources ----
+    var FILES = {
+      'budget-checklist': {
+        filename: 'pennies-abroad-budget-checklist.txt',
+        content:
+"PENNIES ABROAD — STUDY ABROAD BUDGET CHECKLIST\n" +
+"================================================\n\n" +
+"BEFORE YOU LEAVE\n" +
+"[ ] Price visa + insurance costs and set that money aside first\n" +
+"[ ] Book flights 2-4 months out; set a fare alert instead of checking daily\n" +
+"[ ] Open or confirm a no-foreign-transaction-fee card\n" +
+"[ ] Set aside a small emergency fund you won't touch for anything else\n" +
+"[ ] Sort a phone plan (local SIM, eSIM, or international add-on)\n\n" +
+"MONTHLY RECURRING\n" +
+"[ ] Rent / housing payment\n" +
+"[ ] Groceries + regular meals out\n" +
+"[ ] Local transit pass\n" +
+"[ ] Phone & data\n" +
+"[ ] Insurance premium (if billed monthly)\n\n" +
+"ONE-TIME COSTS\n" +
+"[ ] Housing deposit\n" +
+"[ ] Program / application fees\n" +
+"[ ] Luggage, adapters, and other travel gear\n" +
+"[ ] Orientation or welcome-week fees\n\n" +
+"FUN MONEY\n" +
+"[ ] Set a weekly discretionary amount — and track it\n" +
+"[ ] Start a small \"one big trip\" fund separately so it doesn't get spent\n\n" +
+"STAYING ON TRACK\n" +
+"[ ] Pick one day a week to check your spending (same day, every week)\n" +
+"[ ] Use a free budgeting app or a simple spreadsheet — consistency beats complexity\n\n" +
+"— Pennies Abroad · penniesabroad\n"
+      },
+      'visa-tracker': {
+        filename: 'pennies-abroad-visa-document-tracker.txt',
+        content:
+"PENNIES ABROAD — VISA & DOCUMENT TRACKER\n" +
+"================================================\n" +
+"Mark each item: [ ] Not started   [~] In progress   [x] Submitted / Done\n\n" +
+"[ ] Passport valid 6+ months beyond your return date\n" +
+"[ ] Visa application form completed\n" +
+"[ ] Acceptance / enrollment letter from host university\n" +
+"[ ] Proof of funds (bank statement or sponsor letter)\n" +
+"[ ] Proof of accommodation\n" +
+"[ ] Travel / health insurance certificate\n" +
+"[ ] Passport-style photos (check size & background rules for your destination)\n" +
+"[ ] Visa fee paid — keep the receipt\n" +
+"[ ] Flight itinerary or booking confirmation\n" +
+"[ ] Biometrics appointment booked\n" +
+"[ ] Any documents translated / notarized, if required\n" +
+"[ ] Embassy or visa-center appointment confirmed\n" +
+"[ ] Copies made of everything — one set with you, one set left with family\n\n" +
+"Note: requirements vary a lot by nationality and destination. Confirm the\n" +
+"exact list on your embassy's official site before you submit anything.\n\n" +
+"— Pennies Abroad · penniesabroad\n"
+      },
+      'packing-list': {
+        filename: 'pennies-abroad-packing-list.txt',
+        content:
+"PENNIES ABROAD — PACKING LIST FOR EVERY CLIMATE\n" +
+"================================================\n\n" +
+"DOCUMENTS & MONEY\n" +
+"[ ] Passport + visa + printed copies (kept separate from the originals)\n" +
+"[ ] Bank card(s) + a small amount of local cash\n" +
+"[ ] Acceptance letter & insurance documents\n\n" +
+"CLOTHING — LAYERING BASICS\n" +
+"[ ] Breathable base layers\n" +
+"[ ] A few versatile mid-layers that mix and match\n" +
+"[ ] One warm layer (fleece or light packable puffer)\n" +
+"[ ] A packable rain shell\n" +
+"[ ] One comfortable pair of walking shoes, broken in before you go\n" +
+"[ ] One \"nice\" outfit for a dinner, interview, or event\n\n" +
+"ELECTRONICS\n" +
+"[ ] Universal plug adapter (check voltage, not just plug shape)\n" +
+"[ ] Phone + charger\n" +
+"[ ] Portable battery pack\n\n" +
+"TOILETRIES & HEALTH\n" +
+"[ ] Basic first-aid kit\n" +
+"[ ] Any prescriptions, with a copy of the prescription itself\n" +
+"[ ] Travel-size toiletries (top up once you arrive)\n\n" +
+"ADD FOR YOUR CLIMATE\n" +
+"Cold: thermal layers, wool socks, gloves, a real hat\n" +
+"Hot / humid: breathable fabrics, high-SPF sunscreen, a reusable water bottle\n" +
+"Rainy: packable umbrella, a waterproof cover for your bag\n\n" +
+"MISCELLANEOUS\n" +
+"[ ] Day bag for classes and weekend trips\n" +
+"[ ] Laundry bag (dorm laundry rooms fill up fast)\n" +
+"[ ] Something for a long flight — book, download, playlist\n" +
+"[ ] Snacks for the first day, before you've found the shops\n\n" +
+"— Pennies Abroad · penniesabroad\n"
+      }
+    };
+
+    var downloadsPromise = (window.claude && typeof window.claude.use === 'function')
+      ? window.claude.use('downloads')
+      : Promise.resolve(null);
+
+    function setDlStatus(btn, text){
+      var status = btn.parentElement.querySelector('.dl-status');
+      if(status) status.textContent = text;
+    }
+
+    function browserDownload(btn, file){
+      try{
+        var blob = new Blob([file.content], {type:'text/plain;charset=utf-8'});
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = file.filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(function(){ URL.revokeObjectURL(url); }, 1000);
+        setDlStatus(btn, 'Saved ✓');
+      }catch(e){
+        setDlStatus(btn, "Couldn't save — try again");
+      }
+    }
+
+    document.querySelectorAll('[data-download]').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var file = FILES[btn.getAttribute('data-download')];
+        if(!file) return;
+        setDlStatus(btn, 'Preparing…');
+
+        // Outside the Claude artifact viewer (e.g. once this site is hosted
+        // on its own domain), window.claude doesn't exist — use a normal
+        // browser download instead.
+        if(!(window.claude && typeof window.claude.use === 'function')){
+          browserDownload(btn, file);
+          return;
+        }
+
+        downloadsPromise.then(function(cap){
+          if(!cap){ setDlStatus(btn, "Downloads aren't available here."); return; }
+          return cap.save({filename: file.filename, data: file.content});
+        }).then(function(res){
+          if(res) setDlStatus(btn, 'Saved ✓');
+        }).catch(function(err){
+          var code = err && err.code;
+          if(code === 'declined'){ setDlStatus(btn, ''); }
+          else if(code === 'rate_limited'){ setDlStatus(btn, 'Try again in a moment'); }
+          else { setDlStatus(btn, "Couldn't save — try again"); }
+        });
+      });
+    });
+
+  })();
+</script>
+
+</body>
+</html>
